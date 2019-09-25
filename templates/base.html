@@ -1,0 +1,182 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HBMedia - Media Agency">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>HBMedia - Media Agency</title>
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'images/core-img/icon.png' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% block head %}
+    {% endblock %}
+</head>
+
+<body>
+    <!-- b narsani navbar bn footerni ortasina qoyasan -->
+    <div id="preloader">
+        <div class="wrapper">
+            <div class="cssload-loader"></div>
+        </div>
+    </div>
+    <!-- ***** Top Search Area Start ***** -->
+    <div class="top-search-area">
+        <!-- Search Modal -->
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close Button -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Top Search Area End ***** -->
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="uzaNav">
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html"><img src="{% static 'images/core-img/logo.png' %}" width="195px" alt=""></a>
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- Menu Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li class="current-item"><a href="./index.html">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./portfolio.html">Portfolio</a></li>
+                                <li><a href="#">Service</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./blog.html">- Website Creation</a></li>
+                                        <li><a href="./single-blog.html">- Content Creation</a></li>
+                                        <li><a href="./blog.html">- Video Production</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+                            <!-- Nav End -->
+                        </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    {% block body %}
+    {% endblock %}
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-area section-padding-80-0">
+        <div class="container">
+            <div class="row justify-content-between">
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-80">
+                        <!-- Widget Title -->
+                        <h4 class="widget-title">Contact Us</h4>
+                        <!-- Footer Content -->
+                        <div class="footer-content mb-15">
+                            <h5>(+998) 99 876 1902</h5>
+                            <p>9, Ziyolilar str., M.Ulugbek district, Tashkent city <br> khasanboevbobur@gmail.com</p>
+                        </div>
+                        <p class="mb-0">Mon - Sat: 9:00 - 19:00 <br>
+                            Closed on Weekends</p>
+                    </div>
+                </div>
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-80">
+                        <!-- Widget Title -->
+                        <h4 class="widget-title">Quick Link</h4>
+                        <!-- Nav -->
+                        <nav>
+                            <ul class="our-link">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Forum Registeration</a></li>
+                                <li><a href="#">Forum Sign In</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-80">
+                        <!-- Widget Title -->
+                        <h4 class="widget-title">Resources</h4>
+                        <!-- Nav -->
+                        <nav>
+                            <ul class="our-link">
+                                <li><a href="#">Customer Support</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Media &amp; Press</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-80">
+                        <!-- Widget Title -->
+                        <h4 class="widget-title">About Us</h4>
+                        <p>You can easily find us on social media. Please share your experience with us on these platforms below.</p>
+                        <!-- Social Info -->
+                        <div class="footer-social-info">
+                            <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                            <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  <div class="row" style="margin-bottom: 30px;">
+                Copyright &copy;
+                <script>
+                document.write(new Date().getFullYear());
+                </script> All rights reserved | <b> HBMedia </b>
+            </div> -->
+        </div>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+    <!-- ******* All JS Files ******* -->
+    <!-- jQuery js -->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <!-- Popper js -->
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <!-- Bootstrap js -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- All js -->
+    <script src="{% static 'js/uza.bundle.js' %}"></script>
+    <!-- Active js -->
+    <script src="{% static 'js/default-assets/active.js' %}"></script>
+    {% block javascript %}
+    {% endblock %}
+</body>
+
+</html>
