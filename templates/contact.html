@@ -34,7 +34,7 @@
                     <div class="contact-heading mb-50">
                         <h4>Thank you for your interest. <br>Please fill out the form below to inquire about our work in Digital.</h4>
                     </div>
-                    <form action="#" method="post">
+                    <form action="{% url 'contact' %}" method="POST">{% csrf_token %}
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group">
@@ -48,12 +48,12 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control mb-30" name="full-name" placeholder="Phone">
+                                    <input type="text" class="form-control mb-30" name="phone" placeholder="Phone">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control mb-30" name="email" placeholder="Organization">
+                                    <input type="text" class="form-control mb-30" name="organization" placeholder="Organization">
                                 </div>
                             </div>
                             <div class="col-12">
@@ -62,7 +62,7 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn uza-btn btn-3 mt-15">Contact Us</button>
+                                <button type="submit" class="btn uza-btn btn-3 mt-15">Contact Us</button>
                             </div>
                         </div>
                     </form>
