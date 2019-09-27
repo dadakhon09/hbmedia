@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.core.mail import EmailMessage
 
 def index(request):
 	return render(request, 'index.html', {})
@@ -20,3 +21,9 @@ def services(request):
 
 def single_blog(request):
 	return render(request, 'single-blog.html', {})
+
+def send_mail(request):
+	mail = request.POST['nl-email']
+	s = EmailMessage('new subscriber', f'{mail} has just subscribed', 'odadaxon99@gmail.com', ['khasanboevbobur@gmail.com', ])
+	s.send()
+	return redirect('index')
