@@ -12,8 +12,14 @@
     <!-- Favicon -->
     <link rel="icon" href="{% static 'images/core-img/icon.png' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
     {% block head %}
     {% endblock %}
+
 </head>
 
 <body>
@@ -68,17 +74,17 @@
                     <!-- Nav Start -->
                     <div class="classynav">
                         <ul id="nav">
-                            <li class="current-item"><a href="{% url 'index' %}">Home</a></li>
-                            <li><a href="{% url 'about' %}">About</a></li>
-                            <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
-                            <li><a href="{% url 'services' %}">Service</a>
+                            <li class="navItem current-item"><a class="a" href="{% url 'index' %}">Home</a></li>
+                            <li class="navItem"><a class="a" href="{% url 'about' %}">About</a></li>
+                            <li class="navItem"><a class="a" href="{% url 'portfolio' %}">Portfolio</a></li>
+                            <li class="navItem"><a class="a" href="{% url 'services' %}">Service</a>
                                 <ul class="dropdown">
                                     <li><a href="{% url 'web-create' %}">- Website Creation</a></li>
                                     <li><a href="{% url 'content-create' %}">- Content Creation</a></li>
                                     <li><a href="{% url 'video-create' %}">- Video Production</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{% url 'contact' %}">Contact</a></li>
+                            <li class="navItem"><a class="a" href="{% url 'contact' %}">Contact</a></li>
                         </ul>
                         <!-- Nav End -->
                     </div>
@@ -209,6 +215,26 @@
 <script src="{% static 'js/uza.bundle.js' %}"></script>
 <!-- Active js -->
 <script src="{% static 'js/default-assets/active.js' %}"></script>
+<script>
+        let Path = location.pathname.split('/').slice(1, 2);
+        Path = Path.join('/');
+        $('#nav .navItem').map(function () {
+            console.log('krdi')
+            let found_path = $(this).find('.a').attr('href')
+            console.log(found_path)
+            if (found_path === '/services/') {
+
+            }
+            else if (found_path === '/' + Path + '/') {
+                console.log('krdi2')
+                $(this).addClass("current-item");
+            }
+            else {
+                console.log('krdi-else')
+                $(this).removeClass("current-item");
+            }
+        }).get();
+</script>
 {% block js %}
 {% endblock %}
 </body>

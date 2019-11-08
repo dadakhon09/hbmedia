@@ -9,9 +9,9 @@ urlpatterns = [
 	path('contact/', contact, name='contact'),
 	path('portfolio/', portfolio, name='portfolio'),
 	path('services/', services, name='services'),
-	path('web/', web_create, name='web-create'),
-	path('content/', content_create, name='content-create'),
-	path('video/', video_create, name='video-create'),
+	path('services/web/', web_create, name='web-create'),
+	path('services/content/', content_create, name='content-create'),
+	path('services/video/', video_create, name='video-create'),
 	path('single_blog/', single_blog, name='single_blog'),
 	path('sendmail/', send_mail, name='sendmail'),
 ]

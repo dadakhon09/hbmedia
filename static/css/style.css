@@ -3041,3 +3041,6 @@ input:focus {
 
 /*# sourceMappingURL=style.css.map */
 
+.icon_globe:before {
+    content: "\e0e2";
+}
