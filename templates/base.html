@@ -219,18 +219,14 @@
         let Path = location.pathname.split('/').slice(1, 2);
         Path = Path.join('/');
         $('#nav .navItem').map(function () {
-            console.log('krdi')
             let found_path = $(this).find('.a').attr('href')
-            console.log(found_path)
             if (found_path === '/services/') {
 
             }
             else if (found_path === '/' + Path + '/') {
-                console.log('krdi2')
                 $(this).addClass("current-item");
             }
             else {
-                console.log('krdi-else')
                 $(this).removeClass("current-item");
             }
         }).get();
