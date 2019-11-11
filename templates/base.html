@@ -74,17 +74,17 @@
                     <!-- Nav Start -->
                     <div class="classynav">
                         <ul id="nav">
-                            <li class="navItem current-item"><a class="a" href="{% url 'index' %}">Home</a></li>
-                            <li class="navItem"><a class="a" href="{% url 'about' %}">About</a></li>
-                            <li class="navItem"><a class="a" href="{% url 'portfolio' %}">Portfolio</a></li>
-                            <li class="navItem"><a class="a" href="{% url 'services' %}">Service</a>
+                            <li class="navItem current-item"><a class="a" href="{% url 'index' %}">{% trans 'Home' %}</a></li>
+                            <li class="navItem"><a class="a" href="{% url 'about' %}">{% trans 'About' %}</a></li>
+                            <li class="navItem"><a class="a" href="{% url 'portfolio' %}">{% trans 'Portfolio' %}</a></li>
+                            <li class="navItem"><a class="a" href="{% url 'services' %}">{% trans 'Service' %}</a>
                                 <ul class="dropdown">
-                                    <li><a href="{% url 'web-create' %}">- Website Creation</a></li>
-                                    <li><a href="{% url 'content-create' %}">- Content Creation</a></li>
-                                    <li><a href="{% url 'video-create' %}">- Video Production</a></li>
+                                    <li><a href="{% url 'web-create' %}">- {% trans 'Website Creation' %}</a></li>
+                                    <li><a href="{% url 'content-create' %}">- {% trans 'Content Creation' %}</a></li>
+                                    <li><a href="{% url 'video-create' %}">- {% trans 'Video Production' %}</a></li>
                                 </ul>
                             </li>
-                            <li class="navItem"><a class="a" href="{% url 'contact' %}">Contact</a></li>
+                            <li class="navItem"><a class="a" href="{% url 'contact' %}">{% trans 'Contact' %}</a></li>
                         </ul>
                         <!-- Nav End -->
                     </div>
@@ -101,8 +101,8 @@
             <!-- Newsletter Content -->
             <div class="col-12 col-md-6 col-lg-6">
                 <div class="nl-content mb-80">
-                    <h2>Subscribe to our Newsletter</h2>
-                    <p>Subscribe our newsletter gor get notification about new updates, etc...</p>
+                    <h2>{% trans 'Subscribe to our Newsletter' %}</h2>
+                    <p>{% trans 'Subscribe our newsletter gor get notification about new updates, etc...' %}</p>
                 </div>
             </div>
             <!-- Newsletter Form -->
@@ -110,7 +110,7 @@
                 <div class="nl-form mb-80">
                     <form action="{% url 'sendmail' %}" method="POST">{% csrf_token %}
                         <input type="email" name="nl-email" value="" placeholder="Your Email">
-                        <button type="submit">Subscribe</button>
+                        <button type="submit">{% trans 'Subscribe' %}</button>
                     </form>
                 </div>
             </div>
@@ -127,29 +127,29 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-footer-widget mb-80">
                     <!-- Widget Title -->
-                    <h4 class="widget-title">Contact Us</h4>
+                    <h4 class="widget-title">{% trans 'Contact Us' %}</h4>
                     <!-- Footer Content -->
                     <div class="footer-content mb-15">
                         <h5>(+998) 99 876 1902</h5>
-                        <p>9, Ziyolilar str., M.Ulugbek district, Tashkent city <br> khasanboevbobur@gmail.com</p>
+                        <p>{% trans '9, Ziyolilar str., M.Ulugbek district, Tashkent city <br> khasanboevbobur@gmail.com' %}</p>
                     </div>
-                    <p class="mb-0">Mon - Sat: 9:00 - 19:00 <br>
-                        Closed on Weekends</p>
+                    <p class="mb-0">{% trans 'Mon - Sat: 9:00 - 19:00 <br>
+                        Closed on Weekends' %}</p>
                 </div>
             </div>
             <!-- Single Footer Widget -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-footer-widget mb-80">
                     <!-- Widget Title -->
-                    <h4 class="widget-title">Quick Link</h4>
+                    <h4 class="widget-title">{% trans 'Quick Link' %}</h4>
                     <!-- Nav -->
                     <nav>
                         <ul class="our-link">
-                            <li><a href="{% url 'about' %}">About Us</a></li>
-                            <li><a href="{% url 'blog' %}">Blog</a></li>
-                            <li><a href="{% url 'contact' %}">Contact Us</a></li>
-                            <li><a href="#">Forum Registeration</a></li>
-                            <li><a href="#">Forum Sign In</a></li>
+                            <li><a href="{% url 'about' %}">{% trans 'About Us' %}</a></li>
+                            <li><a href="{% url 'blog' %}">{% trans 'Blog' %}</a></li>
+                            <li><a href="{% url 'contact' %}">{% trans 'Contact Us' %}</a></li>
+                            <li><a href="#">{% trans 'Forum Registeration' %}</a></li>
+                            <li><a href="#">{% trans 'Forum Sign In' %}</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -158,15 +158,15 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-footer-widget mb-80">
                     <!-- Widget Title -->
-                    <h4 class="widget-title">Resources</h4>
+                    <h4 class="widget-title">{% trans 'Resources' %}</h4>
                     <!-- Nav -->
                     <nav>
                         <ul class="our-link">
-                            <li><a href="#">Customer Support</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Media &amp; Press</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">{% trans 'Customer Support' %}</a></li>
+                            <li><a href="#">{% trans 'Privacy' %}</a></li>
+                            <li><a href="#">{% trans 'Media' %} &amp; {% trans 'Press' %}</a></li>
+                            <li><a href="#">{% trans 'Our Team' %}</a></li>
+                            <li><a href="#">{% trans 'Contact' %}</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -175,9 +175,9 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-footer-widget mb-80">
                     <!-- Widget Title -->
-                    <h4 class="widget-title">About Us</h4>
-                    <p>You can easily find us on social media. Please share your experience with us on these platforms
-                        below.</p>
+                    <h4 class="widget-title">{% trans 'About Us' %}</h4>
+                    <p>{% trans 'You can easily find us on social media. Please share your experience with us on these platforms
+                        below.' %}</p>
                     <!-- Social Info -->
                     <div class="footer-social-info">
                         <a href="https://www.facebook.com/bobur.hasanboyev.1" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i
@@ -195,11 +195,11 @@
             </div>
         </div>
         <div class="row" style="margin-bottom: 30px;">
-            Copyright &copy;
+            {% trans 'Copyright' %} &copy;
             <script>
                 document.write(new Date().getFullYear());
             </script>
-            All rights reserved | <b> HBMedia </b>
+            {% trans 'All rights reserved' %} | <b> HBMedia </b>
         </div>
     </div>
 </footer>
@@ -216,17 +216,20 @@
 <!-- Active js -->
 <script src="{% static 'js/default-assets/active.js' %}"></script>
 <script>
-        let Path = location.pathname.split('/').slice(1, 3);
+        let Path = location.pathname.split('/').slice(2, 3);
+        console.log(Path)
         Path = Path.join('/');
+        console.log(Path)
         $('#nav .navItem').map(function () {
-            let found_path = $(this).find('.a').attr('href')
+            found_path = $(this).find('.a').attr('href').slice(3, )
+            console.log(found_path)
             if (found_path === '/services/') {
 
             }
-            if (Path === '/'){
+            if (found_path === '/'){
                 $(this).addClass("current-item");
             }
-            else if (found_path === '/' + Path + '/') {
+            if (found_path === '/' + Path + '/') {
                 $(this).addClass("current-item");
             }
             else {

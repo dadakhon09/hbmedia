@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-10 23:48+0500\n"
+"POT-Creation-Date: 2019-11-11 10:59+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,112 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: templates/base.html:77
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:78
+msgid "About"
+msgstr ""
+
+#: templates/base.html:79
+msgid "Portfolio"
+msgstr ""
+
+#: templates/base.html:80
+msgid "Service"
+msgstr ""
+
+#: templates/base.html:82
+msgid "Website Creation"
+msgstr ""
+
+#: templates/base.html:83
+msgid "Content Creation"
+msgstr ""
+
+#: templates/base.html:84
+msgid "Video Production"
+msgstr ""
+
+#: templates/base.html:87 templates/base.html:169
+msgid "Contact"
+msgstr ""
+
+#: templates/base.html:104
+msgid "Subscribe to our Newsletter"
+msgstr ""
+
+#: templates/base.html:105
+msgid "Subscribe our newsletter gor get notification about new updates, etc..."
+msgstr ""
+
+#: templates/base.html:113
+msgid "Subscribe"
+msgstr ""
+
+#: templates/base.html:130 templates/base.html:150
+msgid "Contact Us"
+msgstr ""
+
+#: templates/base.html:134
+msgid ""
+"9, Ziyolilar str., M.Ulugbek district, Tashkent city <br> "
+"khasanboevbobur@gmail.com"
+msgstr ""
+
+#: templates/base.html:144
+msgid "Quick Link"
+msgstr ""
+
+#: templates/base.html:148 templates/base.html:178
+msgid "About Us"
+msgstr ""
+
+#: templates/base.html:149
+msgid "Blog"
+msgstr ""
+
+#: templates/base.html:151
+msgid "Forum Registeration"
+msgstr ""
+
+#: templates/base.html:152
+msgid "Forum Sign In"
+msgstr ""
+
+#: templates/base.html:161
+msgid "Resources"
+msgstr ""
+
+#: templates/base.html:165
+msgid "Customer Support"
+msgstr ""
+
+#: templates/base.html:166
+msgid "Privacy"
+msgstr ""
+
+#: templates/base.html:167
+msgid "Media"
+msgstr ""
+
+#: templates/base.html:167
+msgid "Press"
+msgstr ""
+
+#: templates/base.html:168
+msgid "Our Team"
+msgstr ""
+
+#: templates/base.html:198
+msgid "Copyright"
+msgstr ""
+
+#: templates/base.html:202
+msgid "All rights reserved"
+msgstr ""
 
 #: templates/index.html:20
 msgid "We do not have clients"
