@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-11 10:59+0500\n"
+"POT-Creation-Date: 2019-11-16 21:27+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,206 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: templates/base.html:77
+#: templates/about.html:20
+msgid "Our Mission"
+msgstr ""
+
+#: templates/about.html:26
+msgid "CREATION"
+msgstr ""
+
+#: templates/about.html:29
+msgid "ANALYSIS"
+msgstr ""
+
+#: templates/about.html:32
+msgid "STRATEGY"
+msgstr ""
+
+#: templates/about.html:42
+msgid ""
+"Our clients place their trust in us knowing that we live and breate their "
+"brand. We become part of their marketing team. We drive their business "
+"forward. Let"
+msgstr ""
+
+#: templates/about.html:42
+msgid "and we stand for <b> INTEGRITY </b> </p></br> </br></p>"
+msgstr ""
+
+#: templates/about.html:43 templates/about.html:57
+msgid "Get In Touch"
+msgstr ""
+
+#: templates/about.html:49
+msgid ""
+"We analize the type and the sector of your business in order to get the "
+"things done. At the same time we go through with every possibility to "
+"increase the brand and the sales of your company."
+msgstr ""
+
+#: templates/about.html:49
+msgid "We are"
+msgstr ""
+
+#: templates/about.html:49
+#, python-format
+msgid "{%% trans "
+msgstr ""
+
+#: templates/about.html:56
+msgid ""
+"Our strategy is to increase the awareness and potential clients of your "
+"company. On net world we go all in on every single networking platform. "
+"Along the way we deal with the marketings of our clients."
+msgstr ""
+
+#: templates/about.html:56
+msgid "We are "
+msgstr ""
+
+#: templates/about.html:56
+msgid "and we stand for <b> INTEGRITY"
+msgstr ""
+
+#: templates/about.html:80
+msgid "Why Choose Us"
+msgstr ""
+
+#: templates/about.html:81
+msgid "We’re Your Partner in Your Success"
+msgstr ""
+
+#: templates/about.html:84
+msgid "Distinctive Experts That Provide Effortless Expertise"
+msgstr ""
+
+#: templates/about.html:85
+msgid "Enriched Outcomes Enabled By Experienced Professionals"
+msgstr ""
+
+#: templates/about.html:86
+msgid "Wide-Ranging Thoughts Bread Exceptional Ideas"
+msgstr ""
+
+#: templates/about.html:87
+msgid "Generating Best Results Through Open Communication"
+msgstr ""
+
+#: templates/about.html:88
+msgid "Extensive Marketing Research Generates Valuable Insights"
+msgstr ""
+
+#: templates/about.html:89
+msgid "We are Results-Driven, Oriented, We deliver results"
+msgstr ""
+
+#: templates/about.html:110
+msgid "Team of Experts"
+msgstr ""
+
+#: templates/about.html:111 templates/index.html:185
+msgid "We stay on top of our industry by being experts in yours."
+msgstr ""
+
+#: templates/about.html:279 templates/index.html:359 templates/services.html:96
+msgid "Interested in working with us?"
+msgstr ""
+
+#: templates/about.html:280
+msgid " Give us a call!"
+msgstr ""
+
+#: templates/about.html:286 templates/index.html:366
+#: templates/services.html:103
+msgid "Call us now:"
+msgstr ""
+
+#: templates/about.html:309 templates/index.html:263
+#: templates/services.html:126
+msgid ""
+"’s ranking has gone up so much from the great work that your team has done "
+"and our brand get organic sales consistently from your efforts. We are happy "
+"that the results of your efforts were lasting and profitable.”"
+msgstr ""
+
+#: templates/about.html:320 templates/index.html:325
+#: templates/services.html:188
+msgid "CEO"
+msgstr ""
+
+#: templates/about.html:334
+msgid ""
+"“Everybody is equally right to have a decision that changes the course of "
+"their action. In SMM I assume there is no agency or company exists like"
+msgstr ""
+
+#: templates/about.html:334
+msgid ""
+"Its not only the help that they did us , but the care for our brands as "
+"well .”"
+msgstr ""
+
+#: templates/about.html:345
+msgid "Client"
+msgstr ""
+
+#: templates/about.html:345
+msgid " High Networth"
+msgstr ""
+
+#: templates/about.html:359 templates/services.html:176
+msgid ""
+"is the new and only agency that cares about its customers. We take our "
+"customers"
+msgstr ""
+
+#: templates/about.html:360 templates/services.html:177
+msgid "We prioritize our work by priozitizing customers brands </strong>”"
+msgstr ""
+
+#: templates/about.html:371 templates/services.html:137
+msgid " CEO"
+msgstr ""
+
+#: templates/about.html:392
+msgid "Projects"
+msgstr ""
+
+#: templates/about.html:392
+msgid "Completed"
+msgstr ""
+
+#: templates/about.html:402
+msgid "Happy"
+msgstr ""
+
+#: templates/about.html:402
+msgid "clients"
+msgstr ""
+
+#: templates/about.html:412
+msgid "WEB"
+msgstr ""
+
+#: templates/about.html:412
+msgid "awards"
+msgstr ""
+
+#: templates/about.html:422
+msgid "Our"
+msgstr ""
+
+#: templates/about.html:422
+msgid "experts"
+msgstr ""
+
+#: templates/base.html:46
+msgid "Search"
+msgstr ""
+
+#: templates/base.html:77 templates/portfolio.html:13
+#: templates/services.html:13
 msgid "Home"
 msgstr ""
 
@@ -26,7 +225,8 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: templates/base.html:79
+#: templates/base.html:79 templates/portfolio.html:10
+#: templates/portfolio.html:14
 msgid "Portfolio"
 msgstr ""
 
@@ -34,15 +234,19 @@ msgstr ""
 msgid "Service"
 msgstr ""
 
-#: templates/base.html:82
+#: templates/base.html:82 templates/index.html:147 templates/portfolio.html:32
+#: templates/portfolio.html:44 templates/portfolio.html:74
+#: templates/portfolio.html:104
 msgid "Website Creation"
 msgstr ""
 
-#: templates/base.html:83
+#: templates/base.html:83 templates/portfolio.html:33
+#: templates/portfolio.html:59 templates/portfolio.html:89
+#: templates/portfolio.html:119 templates/services.html:55
 msgid "Content Creation"
 msgstr ""
 
-#: templates/base.html:84
+#: templates/base.html:84 templates/index.html:169 templates/services.html:70
 msgid "Video Production"
 msgstr ""
 
@@ -55,7 +259,8 @@ msgid "Subscribe to our Newsletter"
 msgstr ""
 
 #: templates/base.html:105
-msgid "Subscribe our newsletter gor get notification about new updates, etc..."
+msgid ""
+"Subscribe to our newsletter to get notification about new updates, etc..."
 msgstr ""
 
 #: templates/base.html:113
@@ -124,6 +329,312 @@ msgstr ""
 msgid "All rights reserved"
 msgstr ""
 
-#: templates/index.html:20
+#: templates/content-create.html:6
+msgid "We create contents"
+msgstr ""
+
+#: templates/content-create.html:8
+msgid ""
+" Reaching to millions of people is really easy if it is compared to 30-35 "
+"years back. Because today the power of Internet is and will be huge. If you "
+"are the business or have a business its a great time for you and me have "
+"some fun. We love to make you happy by creating creative content for your "
+"business to grow rapidly. If you are a start-up or corporative company we "
+"are here to elevate your game to the next level. We are here to help to "
+"create a right content on the right time for the right purposes. Lets fire "
+"up the all social media platforms from <b>Facebook</b> to <b>Tik Tok"
+msgstr ""
+
+#: templates/index.html:20 templates/index.html:50 templates/index.html:80
 msgid "We do not have clients"
+msgstr ""
+
+#: templates/index.html:20 templates/index.html:50 templates/index.html:80
+msgid "but"
+msgstr ""
+
+#: templates/index.html:20 templates/index.html:50 templates/index.html:80
+msgid "relationships"
+msgstr ""
+
+#: templates/index.html:22
+msgid "We love to create \"cool\" things in Digital World"
+msgstr ""
+
+#: templates/index.html:23 templates/index.html:117
+msgid "Start Exploring"
+msgstr ""
+
+#: templates/index.html:114
+msgid "We"
+msgstr ""
+
+#: templates/index.html:114
+msgid "Digital Marketing"
+msgstr ""
+
+#: templates/index.html:115
+msgid "Hi we are"
+msgstr ""
+
+#: templates/index.html:115
+msgid "We are full-service national agency, build for the now"
+msgstr ""
+
+#: templates/index.html:116
+msgid ""
+"Our clients place their trust in us knowing that we live and breate their "
+"brand. We become part of their marketing team. We drive their business "
+"forward"
+msgstr ""
+
+#: templates/index.html:116
+msgid "Let"
+msgstr ""
+
+#: templates/index.html:135
+msgid "Our Services"
+msgstr ""
+
+#: templates/index.html:148
+msgid ""
+"We can help you to drive more sales by creating a website. Moreover, now we "
+"assist you with"
+msgstr ""
+
+#: templates/index.html:148
+msgid "SEO"
+msgstr ""
+
+#: templates/index.html:158
+msgid "Content creation"
+msgstr ""
+
+#: templates/index.html:159
+msgid ""
+"We help you to create impressive & eye-catching content for your audience on "
+"social media"
+msgstr ""
+
+#: templates/index.html:170
+msgid "Create a touching ad video campaign with"
+msgstr ""
+
+#: templates/index.html:170
+msgid "for reaching millions"
+msgstr ""
+
+#: templates/index.html:184
+msgid "Our Portfolio"
+msgstr ""
+
+#: templates/index.html:199
+msgid "Sales"
+msgstr ""
+
+#: templates/index.html:200
+msgid ""
+"The seller or the provider of the goods or services, completes a sale in "
+"response to an acquisition, appropiration, requisition or a direct "
+"interaction with the buyer at the point of the sale."
+msgstr ""
+
+#: templates/index.html:213
+msgid ""
+"Business leverage digital channels such as search engines, social media, "
+"email and other websites to connect with current and prospective customers. "
+"It also includes Affiliate Marketinf, Influencer Marketing, Viral and "
+"Content Marketing."
+msgstr ""
+
+#: templates/index.html:225
+msgid "Brand Management"
+msgstr ""
+
+#: templates/index.html:226
+msgid ""
+"It is the analsis and planning on how a brand is pervieved in the market is "
+"essential for brand management. Tangible elements of a brand management "
+"include the product itself, its look, price, packaging and etc."
+msgstr ""
+
+#: templates/index.html:238
+msgid "SEO (Search Engine Optimization)"
+msgstr ""
+
+#: templates/index.html:239
+msgid ""
+"SEO is the process of increasing the quality and the quantity of a website "
+"traffic by increasinfthe visibility of a website or a web page to users of a "
+"web search engine."
+msgstr ""
+
+#: templates/index.html:274
+msgid "- CEO"
+msgstr ""
+
+#: templates/index.html:288
+msgid ""
+" Its not only the help that they did us , but the care for our brands as "
+"well .”"
+msgstr ""
+
+#: templates/index.html:299
+msgid "- Client"
+msgstr ""
+
+#: templates/index.html:299
+msgid " High Networth "
+msgstr ""
+
+#: templates/index.html:313
+msgid ""
+" is the new and only agency that cares about its customers. We take our "
+"customers"
+msgstr ""
+
+#: templates/index.html:314
+msgid " We prioritize our work by priozitizing customers brands"
+msgstr ""
+
+#: templates/index.html:360 templates/services.html:97
+msgid "Give us a call!"
+msgstr ""
+
+#: templates/index.html:379
+msgid "Most Read Articles"
+msgstr ""
+
+#: templates/index.html:390
+msgid "World Top Media Companies List - 2019"
+msgstr ""
+
+#: templates/index.html:391
+msgid ""
+"List of World Top Media and Advertising Companies List by Market "
+"Capitalization as on July-01-2019. World Top Companies Ranks are given "
+"according to market cap value of the companies as on July-01-2019 "
+msgstr ""
+
+#: templates/index.html:392 templates/index.html:404 templates/index.html:416
+msgid "Read More"
+msgstr ""
+
+#: templates/index.html:401
+msgid "September, 2019"
+msgstr ""
+
+#: templates/index.html:402
+msgid "10 most popular brands in 2019"
+msgstr ""
+
+#: templates/index.html:403
+msgid ""
+"These are the 10 most popular fashion brands in 2019 According to The Lyst "
+"Index 2019 these are the most coveted labels so far this year. The data from "
+"over five million shoppers browsing and buying online."
+msgstr ""
+
+#: templates/index.html:413
+msgid "July, 2018"
+msgstr ""
+
+#: templates/index.html:414
+msgid "The most successful ad campaigns in 2019"
+msgstr ""
+
+#: templates/index.html:415
+msgid ""
+"The Top 20 reflects the most viewed work on the site each day. The view "
+"counts are updated daily."
+msgstr ""
+
+#: templates/portfolio.html:31
+msgid "All Portfolio"
+msgstr ""
+
+#: templates/portfolio.html:34 templates/portfolio.html:134
+#: templates/portfolio.html:149
+msgid "Video Campaign"
+msgstr ""
+
+#: templates/portfolio.html:161
+msgid "Load More"
+msgstr ""
+
+#: templates/services.html:10 templates/services.html:14
+msgid "Services"
+msgstr ""
+
+#: templates/services.html:56
+msgid ""
+"We help you to create impressive & eye-catching content for your audience on "
+"social media."
+msgstr ""
+
+#: templates/services.html:71
+msgid ""
+"Create a touching ad video campaign with <b> HBMedia </b> for reaching "
+"millions."
+msgstr ""
+
+#: templates/services.html:151
+msgid ""
+"“Everybody is equally right to have a decision that changes the course of "
+"their action. In SMM I assume there is no agency or company exists like <b> "
+"HBMedia </b>. Its not only the help that they did us , but the care for our "
+"brands as well .”"
+msgstr ""
+
+#: templates/services.html:162
+msgid " Client <b> High Networth"
+msgstr ""
+
+#: templates/services.html:209
+msgid "Projects<br>Completed"
+msgstr ""
+
+#: templates/services.html:219
+msgid "Happy<br>clients"
+msgstr ""
+
+#: templates/services.html:229
+msgid "WEB<br>awards"
+msgstr ""
+
+#: templates/services.html:239
+msgid "Our<br>experts"
+msgstr ""
+
+#: templates/video-create.html:6
+msgid "We create videos"
+msgstr ""
+
+#: templates/video-create.html:8
+msgid ""
+"We assist our clients with video production in order to expand the awarenes "
+"of the company.Our forward-thinking team of storytellers, featuring industry "
+"veterans and digital natives, nurture digital and broadcast productions "
+"through all phases of development—from research to post-production to launch."
+"Storyboards. Motion design. Animation. Visual effects. Our posse of expert "
+"artists and animators is armed with top-tier tools and software to bring "
+"imaginative concepts to life and win over clients."
+msgstr ""
+
+#: templates/web-create.html:6
+msgid "We create websites"
+msgstr ""
+
+#: templates/web-create.html:8
+msgid ""
+"We assist you to drive more sales by creating a stunning websites for your "
+"business with us. In this era its difficult to find any area that is not "
+"involved with Internet. By using website not only you can increase your "
+"sales but you would have an opportunity to improve your services as well. "
+"Now you can turn your web visitors into your potential client. Once a new "
+"visitor comes to your website their data would be recorded to the data track "
+"automatically and then you would be able to control the process of your "
+"services. Furthermore we can help you with <b>\"SMM, SEO, GSC, SEM\" </b>at "
+"the same time.  We help you to increase your traffic and sales of your "
+"business by creating websites for you."
 msgstr ""
