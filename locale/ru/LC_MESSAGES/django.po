@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-16 21:27+0500\n"
+"POT-Creation-Date: 2019-11-19 20:49+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,164 +35,203 @@ msgstr "АНАЛИЗ"
 msgid "STRATEGY"
 msgstr "СТРАТЕГИЯ"
 
-#: templates/about.html:42
-msgid "Our clients place their trust in us knowing that we live and breate their brand. We become part of their marketing team. We drive their business forward. Let us get on board together"
-msgstr "Наши клиенты доверяют нам, зная, что мы живем и создаем их бренд. Мы становимся частью их маркетинговой команды. Мы движем их бизнес вперед. Давайте поднимемся на борт вместе"
-
-#: templates/about.html:42
-msgid "and we stand for <b> INTEGRITY </b> </p></br> </br></p>"
+#: templates/about.html:42 templates/about.html:49 templates/about.html:57
+#, fuzzy
+#| msgid ""
+#| "Our clients place their trust in us knowing that we live and breate their "
+#| "brand. We become part of their marketing team. We drive their business "
+#| "forward. Let us get on board together"
+msgid ""
+"Our clients place their trust in us knowing that we live and breate their "
+"brand. We become part of their marketing team. We drive their business "
+"forward. Let us get on board together."
 msgstr ""
+"Наши клиенты доверяют нам, зная, что мы живем и создаем их бренд. Мы "
+"становимся частью их маркетинговой команды. Мы движем их бизнес вперед. "
+"Давайте поднимемся на борт вместе"
 
-#: templates/about.html:43 templates/about.html:57
-msgid "Get In Touch"
-msgstr ""
-
-#: templates/about.html:49
-msgid "We analize the type and the sector of your business in order to get the things done. At the same time we go through with every possibility to increase the brand and the sales of your company."
-msgstr "Мы анализируем тип и сектор вашего бизнеса, чтобы получить вещи, сделанные. В то же время мы идем до конца с каждой возможностью увеличить тавро и сбывания вашей компании."
-
-#: templates/about.html:49
+#: templates/about.html:42 templates/about.html:49 templates/about.html:57
 msgid "We are"
 msgstr "Мы"
 
-#: templates/about.html:49
-#, python-format
-msgid "{%% trans "
-msgstr ""
-
-#: templates/about.html:56
-msgid "Our strategy is to increase the awareness and potential clients of your company. On net world we go all in on every single networking platform. Along the way we deal with the marketings of our clients."
-msgstr "Наша стратегия заключается в повышении осведомленности и потенциальных клиентов вашей компании. В net world мы делаем все возможное на каждой сетевой платформе. По пути мы имеем дело с маркетингом наших клиентов."
-
-#: templates/about.html:56
-msgid "We are "
-msgstr "Мы"
-
-#: templates/about.html:56
-msgid "and we stand for INTEGRITY"
+#: templates/about.html:42 templates/about.html:49 templates/about.html:57
+#, fuzzy
+#| msgid "and we stand for INTEGRITY"
+msgid "and we stand for"
 msgstr "и мы выступаем за Целостность"
 
-#: templates/about.html:80
+#: templates/about.html:42 templates/about.html:49 templates/about.html:57
+msgid "INTEGRITY"
+msgstr ""
+
+#: templates/about.html:43 templates/about.html:50 templates/about.html:58
+msgid "Get In Touch"
+msgstr ""
+
+#: templates/about.html:82
 msgid "Why Choose Us"
 msgstr "Почему Выбирают Нас"
 
-#: templates/about.html:81
+#: templates/about.html:83
 msgid "We’re Your Partner in Your Success"
 msgstr "Мы ваш партнер в Вашем Успехе"
 
-#: templates/about.html:84
+#: templates/about.html:86
 msgid "Distinctive Experts That Provide Effortless Expertise"
 msgstr "Отличительные Эксперты, Которые Обеспечивают Легкий Опыт"
 
-#: templates/about.html:85
+#: templates/about.html:87
 msgid "Enriched Outcomes Enabled By Experienced Professionals"
 msgstr "Обогащенные Результаты, Предоставляемые Опытными Профессионалами"
 
-#: templates/about.html:86
+#: templates/about.html:88
 msgid "Wide-Ranging Thoughts Bread Exceptional Ideas"
 msgstr "Широкие Мысли И Исключительные Идеи"
 
-#: templates/about.html:87
+#: templates/about.html:89
 msgid "Generating Best Results Through Open Communication"
 msgstr "Получение Наилучших Результатов Через Открытое Общение"
 
-#: templates/about.html:88
+#: templates/about.html:90
 msgid "Extensive Marketing Research Generates Valuable Insights"
 msgstr "Обширные Маркетинговые Исследования Генерируют Ценные Идеи"
 
-#: templates/about.html:89
+#: templates/about.html:91
 msgid "We are Results-Driven, Oriented, We deliver results"
-msgstr "Мы ориентированы на результат, ориентированы на результат, мы достигаем результата"
+msgstr ""
+"Мы ориентированы на результат, ориентированы на результат, мы достигаем "
+"результата"
 
-#: templates/about.html:110
+#: templates/about.html:112
 msgid "Team of Experts"
 msgstr "Группа Экспертов"
 
-#: templates/about.html:111 templates/index.html:185
+#: templates/about.html:113 templates/index.html:185
 msgid "We stay on top of our industry by being experts in yours."
 msgstr "Мы остаемся на вершине нашей отрасли, будучи экспертами в вашей."
 
-#: templates/about.html:279 templates/index.html:359 templates/services.html:96
+#: templates/about.html:281 templates/index.html:359 templates/services.html:96
 msgid "Interested in working with us?"
 msgstr "Заинтересованы в сотрудничестве с нами?"
 
-#: templates/about.html:280
+#: templates/about.html:282
 msgid " Give us a call!"
 msgstr "Позвоните нам!"
 
-#: templates/about.html:286 templates/index.html:366
+#: templates/about.html:288 templates/index.html:366
 #: templates/services.html:103
 msgid "Call us now:"
 msgstr "Позвоните нам!"
 
-#: templates/about.html:309 templates/index.html:263
+#: templates/about.html:311 templates/index.html:263
 #: templates/services.html:126
-msgid "’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable."
-msgstr "ранжирование пошло вверх так много от большой работы что ваша команда делала и наш бренд получает органические продажи последовательно от ваших усилий. Мы рады, что результаты ваших усилий были долгосрочными и прибыльными."
+#, fuzzy
+#| msgid ""
+#| "’s ranking has gone up so much from the great work that your team has "
+#| "done and our brand get organic sales consistently from your efforts. We "
+#| "are happy that the results of your efforts were lasting and profitable."
+msgid ""
+"’s ranking has gone up so much from the great work that your team has done "
+"and our brand get organic sales consistently from your efforts. We are happy "
+"that the results of your efforts were lasting and profitable.”"
+msgstr ""
+"ранжирование пошло вверх так много от большой работы что ваша команда делала "
+"и наш бренд получает органические продажи последовательно от ваших усилий. "
+"Мы рады, что результаты ваших усилий были долгосрочными и прибыльными."
 
-#: templates/about.html:320 templates/index.html:325
+#: templates/about.html:322 templates/index.html:325
 #: templates/services.html:188
 msgid "CEO"
 msgstr "Директор"
 
-#: templates/about.html:334
-msgid "Everybody is equally right to have a decision that changes the course of their action. In SMM I assume there is no agency or company exists like"
-msgstr "Каждый имеет равное право на решение, которое меняет ход его действий. В SMM я предполагаю, что нет никакого агентства или компании, как"
+#: templates/about.html:336
+#, fuzzy
+#| msgid ""
+#| "Everybody is equally right to have a decision that changes the course of "
+#| "their action. In SMM I assume there is no agency or company exists like"
+msgid ""
+"“Everybody is equally right to have a decision that changes the course of "
+"their action. In SMM I assume there is no agency or company exists like"
+msgstr ""
+"Каждый имеет равное право на решение, которое меняет ход его действий. В SMM "
+"я предполагаю, что нет никакого агентства или компании, как"
 
-#: templates/about.html:334
-msgid "Its not only the help that they did us , but the care for our brands as well ."
-msgstr "Это не только помощь, которую они нам оказали ,но и забота о наших брендах."
+#: templates/about.html:336
+#, fuzzy
+#| msgid ""
+#| "Its not only the help that they did us , but the care for our brands as "
+#| "well ."
+msgid ""
+"Its not only the help that they did us , but the care for our brands as "
+"well .”"
+msgstr ""
+"Это не только помощь, которую они нам оказали ,но и забота о наших брендах."
 
-#: templates/about.html:345
+#: templates/about.html:347
 msgid "Client"
 msgstr "Клиент"
 
-#: templates/about.html:345
-msgid "High Networth"
+#: templates/about.html:347
+#, fuzzy
+#| msgid "High Networth"
+msgid " High Networth"
 msgstr "Высокие Средства"
 
-#: templates/about.html:359 templates/services.html:176
-msgid "is the new and only agency that cares about its customers. We take our  customers"
-msgstr "это новое и единственное агентство, которое заботится о своих клиентах. Мы принимаем наших клиентов"
+#: templates/about.html:361 templates/services.html:176
+#, fuzzy
+#| msgid ""
+#| "is the new and only agency that cares about its customers. We take our "
+#| "customers"
+msgid ""
+"is the new and only agency that cares about its customers. We take our "
+"customers` brands to the next level."
+msgstr ""
+"это новое и единственное агентство, которое заботится о своих клиентах. Мы "
+"принимаем наших клиентов"
 
-#: templates/about.html:360 templates/services.html:177
-msgid "We prioritize our work by priozitizing customers brands"
-msgstr "Мы уделяем приоритетное внимание нашей работе по приозитизации брендов клиентов"
+#: templates/about.html:362 templates/services.html:177
+#, fuzzy
+#| msgid "We prioritize our work by priozitizing customers brands"
+msgid "We prioritize our work by priozitizing customers brands </strong>”"
+msgstr ""
+"Мы уделяем приоритетное внимание нашей работе по приозитизации брендов "
+"клиентов"
 
-#: templates/about.html:371 templates/services.html:137
-msgid "CEO"
-msgstr "Директор"
+#: templates/about.html:373 templates/services.html:137
+msgid " CEO"
+msgstr ""
 
-
-#: templates/about.html:392
+#: templates/about.html:394
 msgid "Projects"
 msgstr "Проекты"
 
-#: templates/about.html:392
+#: templates/about.html:394
 msgid "Completed"
 msgstr "Завершенный"
 
-#: templates/about.html:402
+#: templates/about.html:404
 msgid "Happy"
 msgstr "Счастливый"
 
-#: templates/about.html:402
-msgid "сlients"
+#: templates/about.html:404
+#, fuzzy
+#| msgid "сlients"
+msgid "clients"
 msgstr "клиенты"
 
-#: templates/about.html:412
+#: templates/about.html:414
 msgid "WEB"
 msgstr "Сеть"
 
-#: templates/about.html:412
+#: templates/about.html:414
 msgid "awards"
 msgstr "присуждать"
 
-#: templates/about.html:422
+#: templates/about.html:424
 msgid "Our"
 msgstr "Наш"
 
-#: templates/about.html:422
+#: templates/about.html:424
 msgid "experts"
 msgstr "экспертный"
 
@@ -201,7 +239,7 @@ msgstr "экспертный"
 msgid "Search"
 msgstr "Поиск"
 
-#: templates/base.html:77 templates/portfolio.html:13
+#: templates/base.html:77 templates/contact.html:13 templates/portfolio.html:13
 #: templates/services.html:13
 msgid "Home"
 msgstr "Главная"
@@ -235,7 +273,8 @@ msgstr "Создание Контента"
 msgid "Video Production"
 msgstr "Видеопродукция"
 
-#: templates/base.html:87 templates/base.html:169
+#: templates/base.html:87 templates/base.html:169 templates/contact.html:10
+#: templates/contact.html:14
 msgid "Contact"
 msgstr "Контакт"
 
@@ -244,19 +283,24 @@ msgid "Subscribe to our Newsletter"
 msgstr "Подпишитесь на нашу рассылку"
 
 #: templates/base.html:105
-msgid "Subscribe to our newsletter to get notification about new updates, etc..."
+msgid ""
+"Subscribe to our newsletter to get notification about new updates, etc..."
 msgstr "Подпишитесь на нашу рассылку"
 
 #: templates/base.html:113
 msgid "Subscribe"
 msgstr "Подписывать"
 
-#: templates/base.html:130 templates/base.html:150
+#: templates/base.html:130 templates/base.html:150 templates/contact.html:65
 msgid "Contact Us"
 msgstr "Сязаться с Нами"
 
 #: templates/base.html:134
-msgid "9, Ziyolilar str., M.Ulugbek district, Tashkent city"
+#, fuzzy
+#| msgid "9, Ziyolilar str., M.Ulugbek district, Tashkent city"
+msgid ""
+"9, Ziyolilar str., M.Ulugbek district, Tashkent city <br> "
+"khasanboevbobur@gmail.com"
 msgstr "9, зиолилар ул. М.Улугбекский район, город Ташкент"
 
 #: templates/base.html:144
@@ -266,6 +310,10 @@ msgstr "Быстрая Ссылка"
 #: templates/base.html:148 templates/base.html:178
 msgid "About Us"
 msgstr "O нас"
+
+#: templates/base.html:149
+msgid "Blog"
+msgstr ""
 
 #: templates/base.html:151
 msgid "Forum Registeration"
@@ -307,14 +355,46 @@ msgstr ""
 msgid "All rights reserved"
 msgstr "Все права защищены"
 
+#: templates/contact.html:35
+msgid ""
+"Thank you for your interest. <br>Please fill out the form below to inquire "
+"about our work in Digital."
+msgstr ""
+
 #: templates/content-create.html:6
 msgid "We create contents"
 msgstr "Мы создаем контент"
 
 #: templates/content-create.html:8
-msgid "Reaching to millions of people is really easy if it is compared to 30-35 years back. Because today the power of Internet is and will be huge. If you are the business or have a business its a great time for you and me have some fun. We love to make you happy by creating creative content for your business to grow rapidly. If you are a start-up or corporative company we are here to elevate your game to the next level. We are here to help to create a right content on the right time for the right purposes. Lets fire up the all social media platforms from Facebook to Tik Tok"
-msgstr "Охватить миллионы людей действительно легко, если сравнить его с 30-35 годами назад. Потому что сегодня сила интернета есть и будет огромной. Если вы бизнес или есть бизнес его большое время для вас и меня повеселиться. Мы любим делать вас счастливыми, создавая креативный контент для быстрого роста вашего бизнеса. Если вы стартап или корпоративная компания, мы здесь, чтобы поднять вашу игру на новый уровень. Мы здесь, чтобы помочь создать правильный контент в нужное время для правильных целей. Позволяет запускать все социальные медиа-платформы от Facebook до Tik Tok"
-
+#, fuzzy
+#| msgid ""
+#| "Reaching to millions of people is really easy if it is compared to 30-35 "
+#| "years back. Because today the power of Internet is and will be huge. If "
+#| "you are the business or have a business its a great time for you and me "
+#| "have some fun. We love to make you happy by creating creative content for "
+#| "your business to grow rapidly. If you are a start-up or corporative "
+#| "company we are here to elevate your game to the next level. We are here "
+#| "to help to create a right content on the right time for the right "
+#| "purposes. Lets fire up the all social media platforms from Facebook to "
+#| "Tik Tok"
+msgid ""
+" Reaching to millions of people is really easy if it is compared to 30-35 "
+"years back. Because today the power of Internet is and will be huge. If you "
+"are the business or have a business its a great time for you and me have "
+"some fun. We love to make you happy by creating creative content for your "
+"business to grow rapidly. If you are a start-up or corporative company we "
+"are here to elevate your game to the next level. We are here to help to "
+"create a right content on the right time for the right purposes. Lets fire "
+"up the all social media platforms from <b>Facebook</b> to <b>Tik Tok"
+msgstr ""
+"Охватить миллионы людей действительно легко, если сравнить его с 30-35 "
+"годами назад. Потому что сегодня сила интернета есть и будет огромной. Если "
+"вы бизнес или есть бизнес его большое время для вас и меня повеселиться. Мы "
+"любим делать вас счастливыми, создавая креативный контент для быстрого роста "
+"вашего бизнеса. Если вы стартап или корпоративная компания, мы здесь, чтобы "
+"поднять вашу игру на новый уровень. Мы здесь, чтобы помочь создать "
+"правильный контент в нужное время для правильных целей. Позволяет запускать "
+"все социальные медиа-платформы от Facebook до Tik Tok"
 
 #: templates/index.html:20 templates/index.html:50 templates/index.html:80
 msgid "We do not have clients"
@@ -328,17 +408,18 @@ msgstr "но"
 msgid "relationships"
 msgstr "отношение"
 
-#: templates/index.html:22
+#: templates/index.html:22 templates/index.html:52 templates/index.html:82
 msgid "We love to create \"cool\" things in Digital World"
 msgstr "Мы любим создавать крутые вещи в цифровом мире"
 
-#: templates/index.html:23 templates/index.html:117
+#: templates/index.html:23 templates/index.html:53 templates/index.html:83
+#: templates/index.html:117
 msgid "Start Exploring"
 msgstr "Начать Изучать"
 
 #: templates/index.html:114
-msgid "We"
-msgstr "Мы"
+msgid "We are Agency Team"
+msgstr ""
 
 #: templates/index.html:114
 msgid "Digital Marketing"
@@ -353,11 +434,21 @@ msgid "We are full-service national agency, build for the now"
 msgstr "Мы Национальное агенство полн-обслуживания, строим для теперь"
 
 #: templates/index.html:116
-msgid "Our clients place their trust in us knowing that we live and breate their brand. We become part of their marketing team. We drive their business forward."
-msgstr "Наши клиенты доверяют нам, зная, что мы живем и создаем их бренд. Мы становимся частью их маркетинговой команды. Мы движем их бизнес вперед"
+#, fuzzy
+#| msgid ""
+#| "Our clients place their trust in us knowing that we live and breate their "
+#| "brand. We become part of their marketing team. We drive their business "
+#| "forward."
+msgid ""
+"Our clients place their trust in us knowing that we live and breate their "
+"brand. We become part of their marketing team. We drive their business "
+"forward"
+msgstr ""
+"Наши клиенты доверяют нам, зная, что мы живем и создаем их бренд. Мы "
+"становимся частью их маркетинговой команды. Мы движем их бизнес вперед"
 
 #: templates/index.html:116
-msgid "Let"
+msgid "Let us get started"
 msgstr ""
 
 #: templates/index.html:135
@@ -365,8 +456,12 @@ msgid "Our Services"
 msgstr "Свои Услуги"
 
 #: templates/index.html:148
-msgid "We can help you to drive more sales by creating a website. Moreover, now we assist you with"
-msgstr "Мы можем помочь вам увеличить продажи, создав веб-сайт. Кроме того, теперь мы помогаем вам с"
+msgid ""
+"We can help you to drive more sales by creating a website. Moreover, now we "
+"assist you with"
+msgstr ""
+"Мы можем помочь вам увеличить продажи, создав веб-сайт. Кроме того, теперь "
+"мы помогаем вам с"
 
 #: templates/index.html:148
 msgid "SEO"
@@ -377,8 +472,12 @@ msgid "Content creation"
 msgstr "Создание Kонтента"
 
 #: templates/index.html:159
-msgid "We help you to create impressive & eye-catching content for your audience on social media"
-msgstr "Мы поможем вам создать впечатляющий и привлекательный контент для вашей аудитории в социальных сетях"
+msgid ""
+"We help you to create impressive & eye-catching content for your audience on "
+"social media"
+msgstr ""
+"Мы поможем вам создать впечатляющий и привлекательный контент для вашей "
+"аудитории в социальных сетях"
 
 #: templates/index.html:170
 msgid "Create a touching ad video campaign with"
@@ -397,52 +496,103 @@ msgid "Sales"
 msgstr "Товарооборот"
 
 #: templates/index.html:200
-msgid "The seller or the provider of the goods or services, completes a sale in response to an acquisition, appropiration, requisition or a direct interaction with the buyer at the point of the sale."
-msgstr "Продавец или поставщик товаров или услуг завершает продажу в ответ на приобретение, предложение, заявку или прямое взаимодействие с покупателем в месте продажи."
+msgid ""
+"The seller or the provider of the goods or services, completes a sale in "
+"response to an acquisition, appropiration, requisition or a direct "
+"interaction with the buyer at the point of the sale."
+msgstr ""
+"Продавец или поставщик товаров или услуг завершает продажу в ответ на "
+"приобретение, предложение, заявку или прямое взаимодействие с покупателем в "
+"месте продажи."
 
 #: templates/index.html:213
-msgid "Business leverage digital channels such as search engines, social media,email and other websites to connect with current and prospective customers.It also includes Affiliate Marketinf, Influencer Marketing, Viral and Content Marketing."
-msgstr "Бизнес использует цифровые каналы, такие как поисковые системы, социальные сети, электронная почта и другие веб-сайты для связи с текущими и перспективными customers.It также включает в себя Партнерский маркетинг, маркетинг влияния, вирусный и контент-маркетинг."
+#, fuzzy
+#| msgid ""
+#| "Business leverage digital channels such as search engines, social media,"
+#| "email and other websites to connect with current and prospective "
+#| "customers.It also includes Affiliate Marketinf, Influencer Marketing, "
+#| "Viral and Content Marketing."
+msgid ""
+"Business leverage digital channels such as search engines, social media, "
+"email and other websites to connect with current and prospective customers. "
+"It also includes Affiliate Marketinf, Influencer Marketing, Viral and "
+"Content Marketing."
+msgstr ""
+"Бизнес использует цифровые каналы, такие как поисковые системы, социальные "
+"сети, электронная почта и другие веб-сайты для связи с текущими и "
+"перспективными customers.It также включает в себя Партнерский маркетинг, "
+"маркетинг влияния, вирусный и контент-маркетинг."
 
 #: templates/index.html:225
 msgid "Brand Management"
 msgstr "Управление Брендом"
 
 #: templates/index.html:226
-msgid "It is the analsis and planning on how a brand is pervieved in the market is essential for brand management. Tangible elements of a brand management include the product itself, its look, price, packaging and etc."
-msgstr "Это анализ и планирование того, как бренд проникает на рынок, имеет важное значение для управления брендом. Осязаемые элементы управления брендом включают в себя сам продукт, его внешний вид, цену, упаковку и т.д."
+msgid ""
+"It is the analsis and planning on how a brand is pervieved in the market is "
+"essential for brand management. Tangible elements of a brand management "
+"include the product itself, its look, price, packaging and etc."
+msgstr ""
+"Это анализ и планирование того, как бренд проникает на рынок, имеет важное "
+"значение для управления брендом. Осязаемые элементы управления брендом "
+"включают в себя сам продукт, его внешний вид, цену, упаковку и т.д."
 
 #: templates/index.html:238
 msgid "SEO (Search Engine Optimization)"
 msgstr "СЭО"
 
 #: templates/index.html:239
-msgid "SEO is the process of increasing the quality and the quantity of a website traffic by increasinfthe visibility of a website or a web page to users of a web search engine."
-msgstr "SEO-это процесс повышения качества и количества трафика веб-сайта путем увеличения видимости веб-сайта или веб-страницы для пользователей веб-поисковой системы."
+msgid ""
+"SEO is the process of increasing the quality and the quantity of a website "
+"traffic by increasinfthe visibility of a website or a web page to users of a "
+"web search engine."
+msgstr ""
+"SEO-это процесс повышения качества и количества трафика веб-сайта путем "
+"увеличения видимости веб-сайта или веб-страницы для пользователей веб-"
+"поисковой системы."
 
 #: templates/index.html:274
-msgid "CEO"
-msgstr "Директор"
+msgid "- CEO"
+msgstr ""
 
 #: templates/index.html:288
-msgid "Its not only the help that they did us , but the care for our brands as well ."
-msgstr "Это не только помощь, которую они нам оказали ,но и забота о наших брендах."
+#, fuzzy
+#| msgid ""
+#| "Its not only the help that they did us , but the care for our brands as "
+#| "well ."
+msgid ""
+" Its not only the help that they did us , but the care for our brands as "
+"well .”"
+msgstr ""
+"Это не только помощь, которую они нам оказали ,но и забота о наших брендах."
 
 #: templates/index.html:299
 msgid "- Client"
 msgstr "Клиент"
 
 #: templates/index.html:299
+#, fuzzy
+#| msgid "High Networth"
 msgid " High Networth "
-msgstr "Высокие Средства."
+msgstr "Высокие Средства"
 
 #: templates/index.html:313
-msgid "is the new and only agency that cares about its customers. We take our customers"
-msgstr "это новое и единственное агентство, которое заботится о своих клиентах. Мы принимаем наших клиентов"
+#, fuzzy
+#| msgid ""
+#| "is the new and only agency that cares about its customers. We take our "
+#| "customers"
+msgid ""
+" is the new and only agency that cares about its customers. We take our "
+"customers` brands to the next level."
+msgstr ""
+"это новое и единственное агентство, которое заботится о своих клиентах. Мы "
+"принимаем наших клиентов"
 
 #: templates/index.html:314
 msgid " We prioritize our work by priozitizing customers brands"
-msgstr "Мы уделяем приоритетное внимание нашей работе по приозитизации брендов клиентов"
+msgstr ""
+"Мы уделяем приоритетное внимание нашей работе по приозитизации брендов "
+"клиентов"
 
 #: templates/index.html:360 templates/services.html:97
 msgid "Give us a call!"
@@ -462,9 +612,6 @@ msgid ""
 "Capitalization as on July-01-2019. World Top Companies Ranks are given "
 "according to market cap value of the companies as on July-01-2019 "
 msgstr ""
-
-Dadakhon, [18.11.19 23:34]
-
 
 #: templates/index.html:392 templates/index.html:404 templates/index.html:416
 msgid "Read More"
@@ -517,35 +664,69 @@ msgid "Services"
 msgstr "Услуги"
 
 #: templates/services.html:56
-msgid "We help you to create impressive & eye-catching content for your audience on social media."
-msgstr "Мы поможем вам создать впечатляющий и привлекательный контент для вашей аудитории в социальных сетях."
+msgid ""
+"We help you to create impressive & eye-catching content for your audience on "
+"social media."
+msgstr ""
+"Мы поможем вам создать впечатляющий и привлекательный контент для вашей "
+"аудитории в социальных сетях."
 
 #: templates/services.html:71
-msgid "Create a touching ad video campaign with HBMedia for reaching millions."
-msgstr "Создайте трогательную рекламную видео кампанию с HBMEDIA для достижения миллионов."
+#, fuzzy
+#| msgid ""
+#| "Create a touching ad video campaign with HBMedia for reaching millions."
+msgid ""
+"Create a touching ad video campaign with <b> HBMedia </b> for reaching "
+"millions."
+msgstr ""
+"Создайте трогательную рекламную видео кампанию с HBMEDIA для достижения "
+"миллионов."
 
 #: templates/services.html:151
-msgid "Everybody is equally right to have a decision that changes the course of their action. In SMM I assume there is no agency or company exists like HBMedia. Its not only the help that they did us , but the care for our brands as well ."
-msgstr "Каждый имеет равное право на решение, которое меняет ход его действий. В SMM я предполагаю, что нет никакого агентства или компании, как HBMedia. Это не только помощь, которую они нам оказали ,но и забота о наших брендах."
+#, fuzzy
+#| msgid ""
+#| "Everybody is equally right to have a decision that changes the course of "
+#| "their action. In SMM I assume there is no agency or company exists like "
+#| "HBMedia. Its not only the help that they did us , but the care for our "
+#| "brands as well ."
+msgid ""
+"“Everybody is equally right to have a decision that changes the course of "
+"their action. In SMM I assume there is no agency or company exists like <b> "
+"HBMedia </b>. Its not only the help that they did us , but the care for our "
+"brands as well .”"
+msgstr ""
+"Каждый имеет равное право на решение, которое меняет ход его действий. В SMM "
+"я предполагаю, что нет никакого агентства или компании, как HBMedia. Это не "
+"только помощь, которую они нам оказали ,но и забота о наших брендах."
 
 #: templates/services.html:162
-msgid " Client  High Networth"
+#, fuzzy
+#| msgid " Client  High Networth"
+msgid " Client <b> High Networth"
 msgstr "Клиент Высокие Средства."
 
 #: templates/services.html:209
-msgid "Projects Completed"
+#, fuzzy
+#| msgid "Projects Completed"
+msgid "Projects<br>Completed"
 msgstr "Завершенные Проекты"
 
 #: templates/services.html:219
-msgid "Happy clients"
+#, fuzzy
+#| msgid "Happy clients"
+msgid "Happy<br>clients"
 msgstr "Довольный клиент"
 
 #: templates/services.html:229
-msgid "WEB awards"
+#, fuzzy
+#| msgid "WEB awards"
+msgid "WEB<br>awards"
 msgstr "Веб-награды"
 
 #: templates/services.html:239
-msgid "Our experts"
+#, fuzzy
+#| msgid "Our experts"
+msgid "Our<br>experts"
 msgstr "Наш эксперт"
 
 #: templates/video-create.html:6
@@ -553,13 +734,91 @@ msgid "We create videos"
 msgstr "Мы создаем видео"
 
 #: templates/video-create.html:8
-msgid "We assist our clients with video production in order to expand the awarenes of the company.Our forward-thinking team of storytellers, featuring industry veterans and digital natives, nurture digital and broadcast productions through all phases of development—from research to post-production to launch.Storyboards. Motion design. Animation. Visual effects. Our posse of expert artists and animators is armed with top-tier tools and software to bring imaginative concepts to life and win over clients."
-msgstr "Мы помогаем нашим клиентам с видео-продукцией для того чтобы расширить awarenes компании.Наша дальновидная команда рассказчиков, с участием ветеранов отрасли и цифровых уроженцев, развивает цифровые и вещательные производства на всех этапах развития—от исследований до пост-продакшн до запуска.Раскадровки. Дизайн движения. Анимация. Видеоэффекты. Наш отряд опытных художников и аниматоров вооружен инструментами и программным обеспечением высшего уровня, чтобы воплотить творческие концепции в жизнь и завоевать клиентов."
+msgid ""
+"We assist our clients with video production in order to expand the awarenes "
+"of the company.Our forward-thinking team of storytellers, featuring industry "
+"veterans and digital natives, nurture digital and broadcast productions "
+"through all phases of development—from research to post-production to launch."
+"Storyboards. Motion design. Animation. Visual effects. Our posse of expert "
+"artists and animators is armed with top-tier tools and software to bring "
+"imaginative concepts to life and win over clients."
+msgstr ""
+"Мы помогаем нашим клиентам с видео-продукцией для того чтобы расширить "
+"awarenes компании.Наша дальновидная команда рассказчиков, с участием "
+"ветеранов отрасли и цифровых уроженцев, развивает цифровые и вещательные "
+"производства на всех этапах развития—от исследований до пост-продакшн до "
+"запуска.Раскадровки. Дизайн движения. Анимация. Видеоэффекты. Наш отряд "
+"опытных художников и аниматоров вооружен инструментами и программным "
+"обеспечением высшего уровня, чтобы воплотить творческие концепции в жизнь и "
+"завоевать клиентов."
 
 #: templates/web-create.html:6
 msgid "We create websites"
 msgstr "Мы создаем сайты"
 
 #: templates/web-create.html:8
-msgid "We assist you to drive more sales by creating a stunning websites for your business with us. In this era its difficult to find any area that is not involved with Internet. By using website not only you can increase your sales but you would have an opportunity to improve your services as well. Now you can turn your web visitors into your potential client. Once a new visitor comes to your website their data would be recorded to the data track automatically and then you would be able to control the process of your services. Furthermore we can help you with <b>\"SMM, SEO, GSC, SEM\"at the same time.  We help you to increase your traffic and sales of your business by creating websites for you."
-msgstr "Мы помогаем вам увеличить продажи, создавая потрясающие веб-сайты для вашего бизнеса с нами. В эту эпоху трудно найти какую-либо область, которая не связана с Интернетом. Используя веб-сайт, вы не только можете увеличить свои продажи, но у вас будет возможность улучшить свои услуги. Теперь вы можете превратить своих посетителей в потенциального клиента. Как только новый посетитель зайдет на ваш сайт, его данные будут автоматически записаны на дорожку данных, и тогда вы сможете контролировать процесс предоставления ваших услуг. Кроме того, мы можем помочь вам с "SMM, SEO, GSC, SEM"в то же время. Мы помогаем вам увеличить ваш трафик и продажи вашего бизнеса, создавая веб-сайты для вас."
+#, fuzzy
+#| msgid ""
+#| "We assist you to drive more sales by creating a stunning websites for "
+#| "your business with us. In this era its difficult to find any area that is "
+#| "not involved with Internet. By using website not only you can increase "
+#| "your sales but you would have an opportunity to improve your services as "
+#| "well. Now you can turn your web visitors into your potential client. Once "
+#| "a new visitor comes to your website their data would be recorded to the "
+#| "data track automatically and then you would be able to control the "
+#| "process of your services. Furthermore we can help you with <b>\"SMM, SEO, "
+#| "GSC, SEM\"at the same time.  We help you to increase your traffic and "
+#| "sales of your business by creating websites for you."
+msgid ""
+"We assist you to drive more sales by creating a stunning websites for your "
+"business with us. In this era its difficult to find any area that is not "
+"involved with Internet. By using website not only you can increase your "
+"sales but you would have an opportunity to improve your services as well. "
+"Now you can turn your web visitors into your potential client. Once a new "
+"visitor comes to your website their data would be recorded to the data track "
+"automatically and then you would be able to control the process of your "
+"services. Furthermore we can help you with <b>\"SMM, SEO, GSC, SEM\" </b>at "
+"the same time.  We help you to increase your traffic and sales of your "
+"business by creating websites for you."
+msgstr ""
+"Мы помогаем вам увеличить продажи, создавая потрясающие веб-сайты для вашего "
+"бизнеса с нами. В эту эпоху трудно найти какую-либо область, которая не "
+"связана с Интернетом. Используя веб-сайт, вы не только можете увеличить свои "
+"продажи, но у вас будет возможность улучшить свои услуги. Теперь вы можете "
+"превратить своих посетителей в потенциального клиента. Как только новый "
+"посетитель зайдет на ваш сайт, его данные будут автоматически записаны на "
+"дорожку данных, и тогда вы сможете контролировать процесс предоставления "
+"ваших услуг. Кроме того, мы можем помочь вам с \"SMM, SEO, GSC, SEM\"в то же "
+"время. Мы помогаем вам увеличить ваш трафик и продажи вашего бизнеса, "
+"создавая веб-сайты для вас."
+
+#~ msgid ""
+#~ "We analize the type and the sector of your business in order to get the "
+#~ "things done. At the same time we go through with every possibility to "
+#~ "increase the brand and the sales of your company."
+#~ msgstr ""
+#~ "Мы анализируем тип и сектор вашего бизнеса, чтобы получить вещи, "
+#~ "сделанные. В то же время мы идем до конца с каждой возможностью увеличить "
+#~ "тавро и сбывания вашей компании."
+
+#~ msgid ""
+#~ "Our strategy is to increase the awareness and potential clients of your "
+#~ "company. On net world we go all in on every single networking platform. "
+#~ "Along the way we deal with the marketings of our clients."
+#~ msgstr ""
+#~ "Наша стратегия заключается в повышении осведомленности и потенциальных "
+#~ "клиентов вашей компании. В net world мы делаем все возможное на каждой "
+#~ "сетевой платформе. По пути мы имеем дело с маркетингом наших клиентов."
+
+#~ msgid "We are "
+#~ msgstr "Мы"
+
+#~ msgid ""
+#~ "is the new and only agency that cares about its customers. We take our  "
+#~ "customers"
+#~ msgstr ""
+#~ "это новое и единственное агентство, которое заботится о своих клиентах. "
+#~ "Мы принимаем наших клиентов"
+
+#~ msgid "We"
+#~ msgstr "Мы"
