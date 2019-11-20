@@ -15,16 +15,17 @@ def blog(request):
 
 
 def contact(request):
-    full_name = request.POST.get('full-name')
-    email = request.POST.get('email')
-    organization = request.POST.get('organization')
-    phone = request.POST.get('phone')
-    message = request.POST.get('message')
+    if request.method == 'POST':
+        full_name = request.POST.get('full-name')
+        email = request.POST.get('email')
+        organization = request.POST.get('organization')
+        phone = request.POST.get('phone')
+        message = request.POST.get('message')
 
-    m = EmailMessage('contact request',
-                     f'From: {full_name}\n Email: {email}\n Organization: {organization}\n Phone: {phone}\n Message:\n{message}\n',
-                     'odadaxon99@gmail.com', ['khasanboevbobur@gmail.com', ])
-    m.send()
+        m = EmailMessage('contact request',
+                         f'From: {full_name}\n Email: {email}\n Organization: {organization}\n Phone: {phone}\n Message:\n{message}\n',
+                         'odadaxon99@gmail.com', ['khasanboevbobur@gmail.com', ])
+        m.send()
     return render(request, 'contact.html', {})
 
 
