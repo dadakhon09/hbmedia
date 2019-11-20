@@ -3044,3 +3044,95 @@ input:focus {
 .icon_globe:before {
     content: "\e0e2";
 }
+
+
+.lang_switch {
+  position: relative;
+  display: flex;
+  margin: auto;
+  padding: 7px;
+}
+.lang_switch__text {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.lang_switch__text:first-of-type {
+  margin-right: 4px;
+}
+.lang_switch__blobs {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  -webkit-filter: url("#goo");
+          filter: url("#goo");
+}
+.lang_switch__blobs::before, .lang_switch__blobs::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: lightblue;
+  transition: -webkit-transform 0.2s cubic-bezier(0.51, 0.06, 0.56, 1.37);
+  transition: transform 0.2s cubic-bezier(0.51, 0.06, 0.56, 1.37);
+  transition: transform 0.2s cubic-bezier(0.51, 0.06, 0.56, 1.37), -webkit-transform 0.2s cubic-bezier(0.51, 0.06, 0.56, 1.37);
+  will-change: transform;
+}
+.lang_switch__blobs::before {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  transition-delay: 0.1s;
+  transition-duration: 0.4s;
+}
+
+.lang_switch.changed .lang_switch__blobs::before {
+  -webkit-transform: translateX(45px) scale(0.7);
+          transform: translateX(45px) scale(0.7);
+}
+.lang_switch.changed .lang_switch__blobs::after {
+  -webkit-transform: translateX(45px);
+          transform: translateX(45px);
+}
+
+@media only screen and (min-width: 1025px) {
+  .lang_switch__blobs::before {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+  }
+
+  .lang_switch:hover {
+    cursor: pointer;
+  }
+
+  .lang_switch:not(.changed) .en:hover ~ .lang_switch__blobs::before {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  .lang_switch:not(.changed) .en:hover ~ .lang_switch__blobs::after {
+    -webkit-transform: translateX(45px) scale(0.7);
+            transform: translateX(45px) scale(0.7);
+  }
+
+  .lang_switch.changed .lang_switch__blobs::before {
+    -webkit-transform: translateX(45px);
+            transform: translateX(45px);
+  }
+  .lang_switch.changed .ru:hover ~ .lang_switch__blobs::before {
+    -webkit-transform: translateX(45px) scale(0.9);
+            transform: translateX(45px) scale(0.9);
+  }
+  .lang_switch.changed .ru:hover ~ .lang_switch__blobs::after {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}

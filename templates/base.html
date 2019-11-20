@@ -85,6 +85,24 @@
                                 </ul>
                             </li>
                             <li class="navItem"><a class="a" href="{% url 'contact' %}">{% trans 'Contact' %}</a></li>
+                            <li>
+                                <div class="lang_switch">
+                                   <div class="lang_switch__text ru"><a href="/ru/" style="display: block">RU</a></div>
+                                   <div class="lang_switch__blobs"></div>
+                                   <div class="lang_switch__text en"><a href="/en/" style="display: block">EN</a></div>
+                                   
+                                </div>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: none">
+                                   <defs>
+                                      <filter id="goo">
+                                         <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                         <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                                         <feBlend in="SourceGraphic" in2="goo" />
+                                      </filter>
+                                   </defs>
+                                </svg>
+                            </li>
                         </ul>
                         <!-- Nav End -->
                     </div>
@@ -133,7 +151,7 @@
                         <h5>(+998) 99 876 1902</h5>
                         <p>{% trans '9, Ziyolilar str., M.Ulugbek district, Tashkent city ' %}<br> khasanboevbobur@gmail.com</p>
                     </div>
-                    <p class="mb-0">{% trans 'Mon - Sat: 9:00 - 19:00' %} <br>
+                    <p class="mb-0">{% trans 'Mon - Sat' %}: 9:00 - 19:00 <br>
                         {% trans 'Closed on Weekends' %}</p>
                 </div>
             </div>
@@ -217,12 +235,9 @@
 <script src="{% static 'js/default-assets/active.js' %}"></script>
 <script>
         let Path = location.pathname.split('/').slice(2, 3);
-        console.log(Path)
         Path = Path.join('/');
-        console.log(Path)
         $('#nav .navItem').map(function () {
             found_path = $(this).find('.a').attr('href').slice(3, )
-            console.log(found_path)
             if (found_path === '/services/') {
 
             }
@@ -236,6 +251,11 @@
                 $(this).removeClass("current-item");
             }
         }).get();
+</script>
+<script>
+    const lang_switch = document.querySelector('.lang_switch');
+
+    lang_switch.onclick = () => lang_switch.classList.toggle('changed')
 </script>
 {% block js %}
 {% endblock %}
