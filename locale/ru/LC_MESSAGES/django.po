@@ -168,8 +168,6 @@ msgstr ""
 "принимаем наших клиентов"
 
 #: templates/about.html:362
-#, fuzzy
-#| msgid " We prioritize our work by priozitizing customers brands"
 msgid "We prioritize our work by priozitizing customers brands\""
 msgstr ""
 "Мы уделяем приоритетное внимание нашей работе по приозитизации брендов "
@@ -272,10 +270,6 @@ msgid "Contact Us"
 msgstr "Сязаться с Нами"
 
 #: templates/base.html:152
-#, fuzzy
-#| msgid ""
-#| "9, Ziyolilar str., M.Ulugbek district, Tashkent city "
-#| "khasanboevbobur@gmail.com"
 msgid "9, Ziyolilar str., M.Ulugbek district, Tashkent city "
 msgstr "9, зиолилар ул. М.Улугбекский район, город Ташкент"
 
@@ -344,7 +338,6 @@ msgid "Thank you for your interest"
 msgstr "Спасибо за проявленный интерес"
 
 #: templates/contact.html:35
-#, fuzzy
 #| msgid ""
 #| "Thank you for your interest. Please fill out the form below to inquire "
 #| "about our work in Digital."
