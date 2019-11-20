@@ -32,7 +32,7 @@
             <div class="col-12 col-lg-8">
                 <div class="uza-contact-form mb-80">
                     <div class="contact-heading mb-50">
-                        <h4>{% trans 'Thank you for your interest. <br>Please fill out the form below to inquire about our work in Digital.' %}</h4>
+                        <h4>{% trans 'Thank you for your interest' %}. <br>{% trans 'Please fill out the form below to inquire about our work in Digital' %}.</h4>
                     </div>
                     <form action="{% url 'contact' %}" method="POST">{% csrf_token %}
                         <div class="row">
@@ -74,14 +74,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <!-- Google Maps -->
-            <div class="col-12">
-                <div class="google-maps">
-                    <iframe src="https://www.google.com/maps/place/Inha+University+in+Tashkent/@41.338525,69.33453,15z/data=!4m5!3m4!1s0x0:0x3772abeffc72e7b8!8m2!3d41.338525!4d69.33453" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
+       
     </div>
 </section>
 <!-- ***** Contact Area End ***** -->
