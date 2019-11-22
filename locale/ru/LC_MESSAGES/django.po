@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 00:01+0500\n"
+"POT-Creation-Date: 2019-11-22 10:19+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,33 +95,20 @@ msgstr ""
 "Мы ориентированы на результат, ориентированы на результат, мы достигаем "
 "результата"
 
-#: templates/about.html:112
-msgid "Team of Experts"
-msgstr "Группа Экспертов"
-
-#: templates/about.html:113 templates/index.html:185
-msgid "We stay on top of our industry by being experts in yours."
-msgstr "Мы остаемся на вершине нашей отрасли, будучи экспертами в вашей."
-
-#: templates/about.html:127 templates/about.html:145 templates/about.html:163
-#: templates/about.html:181 templates/about.html:199 templates/about.html:217
-msgid "DESIGNER"
-msgstr "ДИЗАЙНЕР"
-
-#: templates/about.html:281 templates/index.html:359 templates/services.html:96
+#: templates/about.html:114 templates/index.html:359 templates/services.html:96
 msgid "Interested in working with us?"
 msgstr "Заинтересованы в сотрудничестве с нами?"
 
-#: templates/about.html:282
+#: templates/about.html:115
 msgid " Give us a call!"
 msgstr "Позвоните нам!"
 
-#: templates/about.html:288 templates/index.html:366
+#: templates/about.html:121 templates/index.html:366
 #: templates/services.html:103
 msgid "Call us now:"
 msgstr "Позвоните нам!"
 
-#: templates/about.html:311 templates/index.html:263
+#: templates/about.html:144 templates/index.html:263
 msgid ""
 "’s ranking has gone up so much from the great work that your team has done "
 "and our brand get organic sales consistently from your efforts. We are happy "
@@ -131,12 +118,12 @@ msgstr ""
 "и наш бренд получает органические продажи последовательно от ваших усилий. "
 "Мы рады, что результаты ваших усилий были долгосрочными и прибыльными."
 
-#: templates/about.html:322 templates/index.html:274 templates/index.html:325
+#: templates/about.html:155 templates/index.html:274 templates/index.html:325
 #: templates/services.html:188
 msgid "CEO"
 msgstr "Директор"
 
-#: templates/about.html:336
+#: templates/about.html:169 templates/index.html:288
 msgid ""
 "“Everybody is equally right to have a decision that changes the course of "
 "their action. In SMM I assume there is no agency or company exists like"
@@ -144,22 +131,22 @@ msgstr ""
 "Каждый имеет равное право на решение, которое меняет ход его действий. В SMM "
 "я предполагаю, что нет никакого агентства или компании, как"
 
-#: templates/about.html:336 templates/index.html:288
+#: templates/about.html:169 templates/index.html:288
 msgid ""
 "Its not only the help that they did us , but the care for our brands as "
 "well .”"
 msgstr ""
 "Это не только помощь, которую они нам оказали ,но и забота о наших брендах."
 
-#: templates/about.html:347 templates/services.html:162
+#: templates/about.html:180 templates/services.html:162
 msgid "Client"
 msgstr "Клиент"
 
-#: templates/about.html:347
+#: templates/about.html:180
 msgid " High Networth"
 msgstr "Высокие Средства"
 
-#: templates/about.html:361 templates/services.html:176
+#: templates/about.html:194 templates/services.html:176
 msgid ""
 "is the new and only agency that cares about its customers. We take our "
 "customers` brands to the next level."
@@ -167,45 +154,45 @@ msgstr ""
 "это новое и единственное агентство, которое заботится о своих клиентах. Мы "
 "принимаем наших клиентов"
 
-#: templates/about.html:362
+#: templates/about.html:195
 msgid "We prioritize our work by priozitizing customers brands\""
 msgstr ""
 "Мы уделяем приоритетное внимание нашей работе по приозитизации брендов "
 "клиентов"
 
-#: templates/about.html:373 templates/services.html:137
+#: templates/about.html:206 templates/services.html:137
 msgid " CEO"
 msgstr "Директор"
 
-#: templates/about.html:394 templates/services.html:209
+#: templates/about.html:227 templates/services.html:209
 msgid "Projects"
 msgstr "Проекты"
 
-#: templates/about.html:394
+#: templates/about.html:227
 msgid "Completed"
 msgstr "Завершенный"
 
-#: templates/about.html:404 templates/services.html:219
+#: templates/about.html:237 templates/services.html:219
 msgid "Happy"
 msgstr "Счастливый"
 
-#: templates/about.html:404 templates/services.html:219
+#: templates/about.html:237 templates/services.html:219
 msgid "clients"
 msgstr "клиенты"
 
-#: templates/about.html:414 templates/services.html:229
+#: templates/about.html:247 templates/services.html:229
 msgid "WEB"
 msgstr "Сеть"
 
-#: templates/about.html:414 templates/services.html:229
+#: templates/about.html:247 templates/services.html:229
 msgid "awards"
 msgstr "присуждать"
 
-#: templates/about.html:424 templates/services.html:239
+#: templates/about.html:257 templates/services.html:239
 msgid "Our"
 msgstr "Наш"
 
-#: templates/about.html:424 templates/services.html:239
+#: templates/about.html:257 templates/services.html:239
 msgid "experts"
 msgstr "экспертный"
 
@@ -325,11 +312,17 @@ msgstr "Пресс"
 msgid "Our Team"
 msgstr "Наша Команда"
 
-#: templates/base.html:216
+#: templates/base.html:197
+msgid ""
+"You can easily find us on social media. Please share your experience with us "
+"on these platforms below"
+msgstr ""
+
+#: templates/base.html:215
 msgid "Copyright"
 msgstr ""
 
-#: templates/base.html:220
+#: templates/base.html:219
 msgid "All rights reserved"
 msgstr ""
 
@@ -338,9 +331,6 @@ msgid "Thank you for your interest"
 msgstr "Спасибо за проявленный интерес"
 
 #: templates/contact.html:35
-#| msgid ""
-#| "Thank you for your interest. Please fill out the form below to inquire "
-#| "about our work in Digital."
 msgid "Please fill out the form below to inquire about our work in Digital"
 msgstr ""
 "Спасибо за проявленный интерес. Пожалуйста, заполните форму ниже, чтобы "
@@ -459,6 +449,10 @@ msgstr "для достижения миллионов"
 msgid "Our Portfolio"
 msgstr "Наш Портфель"
 
+#: templates/index.html:185
+msgid "We stay on top of our industry by being experts in yours."
+msgstr "Мы остаемся на вершине нашей отрасли, будучи экспертами в вашей."
+
 #: templates/index.html:199
 msgid "Sales"
 msgstr "Товарооборот"
@@ -517,9 +511,23 @@ msgstr ""
 msgid " High Networth "
 msgstr "Высокие Средства"
 
+#: templates/index.html:313
+#, fuzzy
+#| msgid ""
+#| "is the new and only agency that cares about its customers. We take our "
+#| "customers` brands to the next level."
+msgid ""
+" is the new and only agency that cares about its customers. We take our "
+"customers` brands to the next level."
+msgstr ""
+"это новое и единственное агентство, которое заботится о своих клиентах. Мы "
+"принимаем наших клиентов"
+
 #: templates/index.html:314
 msgid " We prioritize our work by priozitizing customers brands"
-msgstr "Мы уделяем приоритетное внимание нашей работе по приозитизации брендов клиентов"
+msgstr ""
+"Мы уделяем приоритетное внимание нашей работе по приозитизации брендов "
+"клиентов"
 
 #: templates/index.html:360 templates/services.html:97
 msgid "Give us a call!"
@@ -534,7 +542,10 @@ msgid "World Top Media Companies List - 2019"
 msgstr ""
 
 #: templates/index.html:391
-msgid "List of World Top Media and Advertising Companies List by Market Capitalization as on July-01-2019. World Top Companies Ranks are given according to market cap value of the companies as on July-01-2019"
+msgid ""
+"List of World Top Media and Advertising Companies List by Market "
+"Capitalization as on July-01-2019. World Top Companies Ranks are given "
+"according to market cap value of the companies as on July-01-2019"
 msgstr ""
 
 #: templates/index.html:392 templates/index.html:404 templates/index.html:416
@@ -550,7 +561,10 @@ msgid "10 most popular brands in 2019"
 msgstr ""
 
 #: templates/index.html:403
-msgid "These are the 10 most popular fashion brands in 2019 According to The Lyst Index 2019 these are the most coveted labels so far this year. The data from over five million shoppers browsing and buying online."
+msgid ""
+"These are the 10 most popular fashion brands in 2019 According to The Lyst "
+"Index 2019 these are the most coveted labels so far this year. The data from "
+"over five million shoppers browsing and buying online."
 msgstr ""
 
 #: templates/index.html:413
@@ -562,7 +576,9 @@ msgid "The most successful ad campaigns in 2019"
 msgstr ""
 
 #: templates/index.html:415
-msgid "The Top 20 reflects the most viewed work on the site each day. The view counts are updated daily"
+msgid ""
+"The Top 20 reflects the most viewed work on the site each day. The view "
+"counts are updated daily"
 msgstr ""
 
 #: templates/portfolio.html:31
@@ -583,20 +599,50 @@ msgid "Services"
 msgstr "Услуги"
 
 #: templates/services.html:56
-msgid "We help you to create impressive & eye-catching content for your audience on social media."
-msgstr "Мы поможем вам создать впечатляющий и привлекательный контент для вашей аудитории в социальных сетях."
+msgid ""
+"We help you to create impressive & eye-catching content for your audience on "
+"social media."
+msgstr ""
+"Мы поможем вам создать впечатляющий и привлекательный контент для вашей "
+"аудитории в социальных сетях."
 
 #: templates/services.html:71
-msgid "Create a touching ad video campaign with HBMedia for reaching millions."
-msgstr "Создайте трогательную рекламную видео кампанию с HBMEDIA для достижения миллионов."
+#, fuzzy
+#| msgid ""
+#| "Create a touching ad video campaign with HBMedia for reaching millions."
+msgid ""
+"Create a touching ad video campaign with <b> HBMedia </b> for reaching "
+"millions."
+msgstr ""
+"Создайте трогательную рекламную видео кампанию с HBMEDIA для достижения "
+"миллионов."
 
 #: templates/services.html:126
-msgid "’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable"
-msgstr "ранжирование пошло вверх так много от большой работы что ваша команда делала и наш бренд получает органические продажи последовательно от ваших усилий. Мы рады, что результаты ваших усилий были долгосрочными и прибыльными."
+msgid ""
+"’s ranking has gone up so much from the great work that your team has done "
+"and our brand get organic sales consistently from your efforts. We are happy "
+"that the results of your efforts were lasting and profitable"
+msgstr ""
+"ранжирование пошло вверх так много от большой работы что ваша команда делала "
+"и наш бренд получает органические продажи последовательно от ваших усилий. "
+"Мы рады, что результаты ваших усилий были долгосрочными и прибыльными."
 
 #: templates/services.html:151
-msgid "Everybody is equally right to have a decision that changes the course of their action. In SMM I assume there is no agency or company exists like HBMedia . Its not only the help that they did us , but the care for our brands as well"
-msgstr "Каждый имеет равное право на решение, которое меняет ход его действий. В SMM я предполагаю, что нет никакого агентства или компании, как HBMedia. Это не только помощь, которую они нам оказали ,но и забота о наших брендах."
+#, fuzzy
+#| msgid ""
+#| "Everybody is equally right to have a decision that changes the course of "
+#| "their action. In SMM I assume there is no agency or company exists like "
+#| "HBMedia . Its not only the help that they did us , but the care for our "
+#| "brands as well"
+msgid ""
+"“Everybody is equally right to have a decision that changes the course of "
+"their action. In SMM I assume there is no agency or company exists like <b> "
+"HBMedia </b>. Its not only the help that they did us , but the care for our "
+"brands as well"
+msgstr ""
+"Каждый имеет равное право на решение, которое меняет ход его действий. В SMM "
+"я предполагаю, что нет никакого агентства или компании, как HBMedia. Это не "
+"только помощь, которую они нам оказали ,но и забота о наших брендах."
 
 #: templates/services.html:162
 msgid "High Networth"
@@ -604,20 +650,75 @@ msgstr "Высокие Средства"
 
 #: templates/services.html:177
 msgid "We prioritize our work by priozitizing customers brands"
-msgstr "Мы уделяем приоритетное внимание нашей работе по приозитизации брендов клиентов"
+msgstr ""
+"Мы уделяем приоритетное внимание нашей работе по приозитизации брендов "
+"клиентов"
 
 #: templates/video-create.html:6
 msgid "We create videos"
 msgstr "Мы создаем видео"
 
 #: templates/video-create.html:8
-msgid "We assist our clients with video production in order to expand the awarenes of the company.Our forward-thinking team of storytellers, featuring industry veterans and digital natives, nurture digital and broadcast productions through all phases of development—from research to post-production to launch.Storyboards. Motion design. Animation. Visual effects. Our posse of expert artists and animators is armed with top-tier tools and software to bring imaginative concepts to life and win over clients." 
-msgstr "Мы помогаем нашим клиентам с видео-продукцией для того чтобы расширить awarenes компании.Наша дальновидная команда рассказчиков, с участием ветеранов отрасли и цифровых уроженцев, развивает цифровые и вещательные производства на всех этапах развития—от исследований до пост-продакшн до запуска.Раскадровки. Дизайн движения. Анимация. Видеоэффекты. Наш отряд опытных художников и аниматоров вооружен инструментами и программным обеспечением высшего уровня, чтобы воплотить творческие концепции в жизнь и завоевать клиентов."
+msgid ""
+"We assist our clients with video production in order to expand the awarenes "
+"of the company.Our forward-thinking team of storytellers, featuring industry "
+"veterans and digital natives, nurture digital and broadcast productions "
+"through all phases of development—from research to post-production to launch."
+"Storyboards. Motion design. Animation. Visual effects. Our posse of expert "
+"artists and animators is armed with top-tier tools and software to bring "
+"imaginative concepts to life and win over clients."
+msgstr ""
+"Мы помогаем нашим клиентам с видео-продукцией для того чтобы расширить "
+"awarenes компании.Наша дальновидная команда рассказчиков, с участием "
+"ветеранов отрасли и цифровых уроженцев, развивает цифровые и вещательные "
+"производства на всех этапах развития—от исследований до пост-продакшн до "
+"запуска.Раскадровки. Дизайн движения. Анимация. Видеоэффекты. Наш отряд "
+"опытных художников и аниматоров вооружен инструментами и программным "
+"обеспечением высшего уровня, чтобы воплотить творческие концепции в жизнь и "
+"завоевать клиентов."
 
 #: templates/web-create.html:6
 msgid "We create websites"
 msgstr "Мы создаем сайты"
 
 #: templates/web-create.html:8
-msgid "We assist you to drive more sales by creating a stunning websites for your business with us. In this era its difficult to find any area that is not involved with Internet. By using website not only you can increase your sales but you would have an opportunity to improve your services as well. Now you can turn your web visitors into your potential client. Once a new visitor comes to your website their data would be recorded to the data track automatically and then you would be able to control the process of your services. Furthermore we can help you with \"SMM, SEO, GSC, SEM\" at the same time.  We help you to increase your traffic and sales of your business by creating websites for you."
-msgstr "Мы помогаем вам увеличить продажи, создавая потрясающие веб-сайты для вашего бизнеса с нами. В эту эпоху трудно найти какую-либо область, которая не связана с Интернетом. Используя веб-сайт, вы не только можете увеличить свои продажи, но у вас будет возможность улучшить свои услуги. Теперь вы можете превратить своих посетителей в потенциального клиента. Как только новый посетитель зайдет на ваш сайт, его данные будут автоматически записаны на дорожку данных, и тогда вы сможете контролировать процесс предоставления ваших услуг. Кроме того, мы можем помочь вам с \"SMM, SEO, GSC, SEM\"в то же время. Мы помогаем вам увеличить ваш трафик и продажи вашего бизнеса, создавая веб-сайты для вас."
+#, fuzzy
+#| msgid ""
+#| "We assist you to drive more sales by creating a stunning websites for "
+#| "your business with us. In this era its difficult to find any area that is "
+#| "not involved with Internet. By using website not only you can increase "
+#| "your sales but you would have an opportunity to improve your services as "
+#| "well. Now you can turn your web visitors into your potential client. Once "
+#| "a new visitor comes to your website their data would be recorded to the "
+#| "data track automatically and then you would be able to control the "
+#| "process of your services. Furthermore we can help you with \"SMM, SEO, "
+#| "GSC, SEM\" at the same time.  We help you to increase your traffic and "
+#| "sales of your business by creating websites for you."
+msgid ""
+"We assist you to drive more sales by creating a stunning websites for your "
+"business with us. In this era its difficult to find any area that is not "
+"involved with Internet. By using website not only you can increase your "
+"sales but you would have an opportunity to improve your services as well. "
+"Now you can turn your web visitors into your potential client. Once a new "
+"visitor comes to your website their data would be recorded to the data track "
+"automatically and then you would be able to control the process of your "
+"services. Furthermore we can help you with \"SMM, SEO, GSC, SEM\" at the "
+"same time.  We help you to increase your traffic and sales of your business "
+"by creating websites for you."
+msgstr ""
+"Мы помогаем вам увеличить продажи, создавая потрясающие веб-сайты для вашего "
+"бизнеса с нами. В эту эпоху трудно найти какую-либо область, которая не "
+"связана с Интернетом. Используя веб-сайт, вы не только можете увеличить свои "
+"продажи, но у вас будет возможность улучшить свои услуги. Теперь вы можете "
+"превратить своих посетителей в потенциального клиента. Как только новый "
+"посетитель зайдет на ваш сайт, его данные будут автоматически записаны на "
+"дорожку данных, и тогда вы сможете контролировать процесс предоставления "
+"ваших услуг. Кроме того, мы можем помочь вам с \"SMM, SEO, GSC, SEM\"в то же "
+"время. Мы помогаем вам увеличить ваш трафик и продажи вашего бизнеса, "
+"создавая веб-сайты для вас."
+
+#~ msgid "Team of Experts"
+#~ msgstr "Группа Экспертов"
+
+#~ msgid "DESIGNER"
+#~ msgstr "ДИЗАЙНЕР"
