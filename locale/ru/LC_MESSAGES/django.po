@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 12:49+0500\n"
+"POT-Creation-Date: 2019-11-22 16:41+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr "Мы"
 
 #: templates/about.html:42 templates/about.html:49 templates/about.html:57
 msgid "and we stand for"
-msgstr "и мы выступаем за Целостность"
+msgstr "и мы выступаем за "
 
 #: templates/about.html:42 templates/about.html:49 templates/about.html:57
 msgid "INTEGRITY"
@@ -138,7 +138,8 @@ msgid ""
 msgstr ""
 "Это не только помощь, которую они нам оказали ,но и забота о наших брендах."
 
-#: templates/about.html:180 templates/services.html:162
+#: templates/about.html:180 templates/index.html:299
+#: templates/services.html:162
 msgid "Client"
 msgstr "Клиент"
 
@@ -196,133 +197,134 @@ msgstr "Наш"
 msgid "experts"
 msgstr "экспертный"
 
-#: templates/base.html:46
+#: templates/base.html:47
 msgid "Search"
 msgstr "Поиск"
 
-#: templates/base.html:77 templates/contact.html:13 templates/portfolio.html:13
-#: templates/services.html:13
+#: templates/base.html:78 templates/base.html:164 templates/contact.html:13
+#: templates/portfolio.html:13 templates/services.html:13
 msgid "Home"
 msgstr "Главная"
 
-#: templates/base.html:78
+#: templates/base.html:79
 msgid "About"
 msgstr "О Нас"
 
-#: templates/base.html:79 templates/portfolio.html:10
+#: templates/base.html:80 templates/base.html:167 templates/portfolio.html:10
 #: templates/portfolio.html:14
 msgid "Portfolio"
 msgstr "Портфель"
 
-#: templates/base.html:80
+#: templates/base.html:81
 msgid "Service"
 msgstr "Услуги"
 
-#: templates/base.html:82 templates/index.html:147 templates/portfolio.html:32
+#: templates/base.html:83 templates/index.html:147 templates/portfolio.html:32
 #: templates/portfolio.html:44 templates/portfolio.html:74
 #: templates/portfolio.html:104 templates/services.html:40
 msgid "Website Creation"
 msgstr "Создание Сайта"
 
-#: templates/base.html:83 templates/portfolio.html:33
+#: templates/base.html:84 templates/portfolio.html:33
 #: templates/portfolio.html:59 templates/portfolio.html:89
 #: templates/portfolio.html:119 templates/services.html:55
 msgid "Content Creation"
 msgstr "Создание Контента"
 
-#: templates/base.html:84 templates/index.html:169 templates/services.html:70
+#: templates/base.html:85 templates/index.html:169 templates/services.html:70
 msgid "Video Production"
 msgstr "Видеопродукция"
 
-#: templates/base.html:87 templates/base.html:187 templates/contact.html:10
+#: templates/base.html:88 templates/base.html:185 templates/contact.html:10
 #: templates/contact.html:14
 msgid "Contact"
 msgstr "Контакт"
 
-#: templates/base.html:122
+#: templates/base.html:92 templates/base.html:100
+msgid "English"
+msgstr ""
+
+#: templates/base.html:94 templates/base.html:98
+msgid "Russian"
+msgstr ""
+
+#: templates/base.html:120
 msgid "Subscribe to our Newsletter"
 msgstr "Подпишитесь на нашу рассылку"
 
-#: templates/base.html:123
+#: templates/base.html:121
 msgid ""
 "Subscribe to our newsletter to get notification about new updates, etc..."
 msgstr "Подпишитесь на нашу рассылку"
 
-#: templates/base.html:131
+#: templates/base.html:129
 msgid "Subscribe"
 msgstr "Подписывать"
 
-#: templates/base.html:148 templates/base.html:168 templates/contact.html:65
+#: templates/base.html:146 templates/base.html:166 templates/contact.html:65
 msgid "Contact Us"
 msgstr "Сязаться с Нами"
 
-#: templates/base.html:152
+#: templates/base.html:150
 msgid "9, Ziyolilar str., M.Ulugbek district, Tashkent city "
 msgstr "9, зиолилар ул. М.Улугбекский район, город Ташкент"
 
-#: templates/base.html:154
+#: templates/base.html:152
 msgid "Mon - Sat"
 msgstr ""
 
-#: templates/base.html:155
+#: templates/base.html:153
 msgid "Closed on Weekends"
 msgstr "Закрыт по выходным"
 
-#: templates/base.html:162
+#: templates/base.html:160
 msgid "Quick Link"
 msgstr "Быстрая Ссылка"
 
-#: templates/base.html:166 templates/base.html:196
+#: templates/base.html:165 templates/base.html:194
 msgid "About Us"
 msgstr "O нас"
 
-#: templates/base.html:167
-msgid "Blog"
-msgstr ""
+#: templates/base.html:168 templates/services.html:10
+#: templates/services.html:14
+msgid "Services"
+msgstr "Услуги"
 
-#: templates/base.html:169
-msgid "Forum Registeration"
-msgstr "Регистрация Форума"
-
-#: templates/base.html:170
-msgid "Forum Sign In"
-msgstr "Вход На Форум"
-
-#: templates/base.html:179
+#: templates/base.html:177
 msgid "Resources"
 msgstr "Pесурсы"
 
-#: templates/base.html:183
+#: templates/base.html:181
 msgid "Customer Support"
 msgstr "Поддержка Клиентов"
 
-#: templates/base.html:184
+#: templates/base.html:182
 msgid "Privacy"
 msgstr "Конфиденциальность"
 
-#: templates/base.html:185
+#: templates/base.html:183
 msgid "Media"
 msgstr "Медиа"
 
-#: templates/base.html:185
+#: templates/base.html:183
 msgid "Press"
 msgstr "Пресс"
 
-#: templates/base.html:186
+#: templates/base.html:184
 msgid "Our Team"
 msgstr "Наша Команда"
 
-#: templates/base.html:197
+#: templates/base.html:195
 msgid ""
 "You can easily find us on social media. Please share your experience with us "
 "on these platforms below"
 msgstr ""
 
-#: templates/base.html:215
+#: templates/base.html:213
 msgid "Copyright"
 msgstr ""
 
-#: templates/base.html:219
+#: templates/base.html:217
 msgid "All rights reserved"
 msgstr ""
 
@@ -411,7 +413,7 @@ msgstr "Давайте начнем"
 
 #: templates/index.html:135
 msgid "Our Services"
-msgstr "Свои Услуги"
+msgstr "Наши Услуги"
 
 #: templates/index.html:148 templates/services.html:41
 msgid ""
@@ -594,10 +596,6 @@ msgstr "Видео Кампания"
 msgid "Load More"
 msgstr "Загрузить Еще"
 
-#: templates/services.html:10 templates/services.html:14
-msgid "Services"
-msgstr "Услуги"
-
 #: templates/services.html:56
 msgid ""
 "We help you to create impressive & eye-catching content for your audience on "
@@ -704,3 +702,9 @@ msgstr ""
 "ваших услуг. Кроме того, мы можем помочь вам с \"SMM, SEO, GSC, SEM\"в то же "
 "время. Мы помогаем вам увеличить ваш трафик и продажи вашего бизнеса, "
 "создавая веб-сайты для вас."
+
+#~ msgid "Forum Registeration"
+#~ msgstr "Регистрация Форума"
+
+#~ msgid "Forum Sign In"
+#~ msgstr "Вход На Форум"

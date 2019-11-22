@@ -766,7 +766,7 @@ input:focus {
 .classynav ul li.has-down>a::after,
 .classynav ul li.has-down.active>a::after,
 .classynav ul li.megamenu-item>a::after {
-    color: #303030;
+    color: #303030;    
 }
 
 .breakpoint-off .classynav ul li .dropdown {

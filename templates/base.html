@@ -13,6 +13,7 @@
     <link rel="icon" href="{% static 'images/core-img/icon.png' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
     <script
       src="https://code.jquery.com/jquery-3.4.1.js"
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -85,11 +86,20 @@
                                 </ul>
                             </li>
                             <li class="navItem"><a class="a" href="{% url 'contact' %}">{% trans 'Contact' %}</a></li>
-                            <li class="navItem">
-                                <select name="lang" id="lang">
-                                    <option value="0">{% trans 'English' %}</option>
-                                    <option value="1">{% trans 'Russian' %}</option>
-                                </select>
+                            <li class="nav-item dropdown">
+                                {% get_current_language as LANGUAGE_CODE %}
+                                {% if LANGUAGE_CODE == 'en' %}
+                                <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> {% trans 'English' %}</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                    <a class="dropdown-item" href="/ru/"><span class="flag-icon flag-icon-ru"> </span>  {% trans 'Russian' %}</a>
+                                </div>
+                                {% elif LANGUAGE_CODE == 'ru' %}
+                                
+                                <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-ru"> </span> {% trans 'Russian' %}</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                    <a class="dropdown-item" href="/en/"><span class="flag-icon flag-icon-us"> </span>  {% trans 'English' %}</a>
+                                </div>
+                                {% endif %}
                             </li>
                         </ul>
                         <!-- Nav End -->
@@ -151,11 +161,11 @@
                     <!-- Nav -->
                     <nav>
                         <ul class="our-link">
+                            <li><a href="{% url 'index' %}">{% trans 'Home' %}</a></li>
                             <li><a href="{% url 'about' %}">{% trans 'About Us' %}</a></li>
-                            <li><a href="{% url 'blog' %}">{% trans 'Blog' %}</a></li>
                             <li><a href="{% url 'contact' %}">{% trans 'Contact Us' %}</a></li>
-                            <li><a href="#">{% trans 'Forum Registeration' %}</a></li>
-                            <li><a href="#">{% trans 'Forum Sign In' %}</a></li>
+                            <li><a href="{% url 'portfolio' %}">{% trans 'Portfolio' %}</a></li>
+                            <li><a href="{% url 'services' %}">{% trans 'Services' %}</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -241,11 +251,7 @@
             }
         }).get();
 </script>
-<script>
-    $(function(){
-        $('.selectpicker').selectpicker();
-    });
-</script>
+
 {% block js %}
 {% endblock %}
 </body>
