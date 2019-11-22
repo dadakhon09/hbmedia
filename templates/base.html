@@ -85,23 +85,11 @@
                                 </ul>
                             </li>
                             <li class="navItem"><a class="a" href="{% url 'contact' %}">{% trans 'Contact' %}</a></li>
-                            <li>
-                                <div class="lang_switch">
-                                   <div class="lang_switch__text ru"><a href="/ru/" style="display: block">RU</a></div>
-                                   <div class="lang_switch__blobs"></div>
-                                   <div class="lang_switch__text en"><a href="/en/" style="display: block">EN</a></div>
-                                   
-                                </div>
-
-                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: none">
-                                   <defs>
-                                      <filter id="goo">
-                                         <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                                         <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-                                         <feBlend in="SourceGraphic" in2="goo" />
-                                      </filter>
-                                   </defs>
-                                </svg>
+                            <li class="navItem">
+                                <select name="lang" id="lang">
+                                    <option value="0">{% trans 'English' %}</option>
+                                    <option value="1">{% trans 'Russian' %}</option>
+                                </select>
                             </li>
                         </ul>
                         <!-- Nav End -->
@@ -237,14 +225,16 @@
         Path = Path.join('/');
         $('#nav .navItem').map(function () {
             found_path = $(this).find('.a').attr('href').slice(3, )
-            if (found_path === '/services/') {
 
-            }
             if (found_path === '/'){
                 $(this).addClass("current-item");
             }
+            
             if (found_path === '/' + Path + '/') {
                 $(this).addClass("current-item");
+            }
+            if (found_path === '/services/') {
+                $(this).removeClass("current-item");
             }
             else {
                 $(this).removeClass("current-item");
@@ -252,9 +242,9 @@
         }).get();
 </script>
 <script>
-    const lang_switch = document.querySelector('.lang_switch');
-
-    lang_switch.onclick = () => lang_switch.classList.toggle('changed')
+    $(function(){
+        $('.selectpicker').selectpicker();
+    });
 </script>
 {% block js %}
 {% endblock %}
