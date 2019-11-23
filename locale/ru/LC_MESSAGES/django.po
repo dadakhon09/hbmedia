@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-22 16:41+0500\n"
+"POT-Creation-Date: 2019-11-23 22:54+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -257,6 +257,10 @@ msgid ""
 "Subscribe to our newsletter to get notification about new updates, etc..."
 msgstr "Подпишитесь на нашу рассылку"
 
+#: templates/base.html:128
+msgid "Your Email"
+msgstr "Ваш Эл. адрес"
+
 #: templates/base.html:129
 msgid "Subscribe"
 msgstr "Подписывать"
@@ -319,6 +323,8 @@ msgid ""
 "You can easily find us on social media. Please share your experience with us "
 "on these platforms below"
 msgstr ""
+"Вы можете легко найти нас в социальных сетях. Пожалуйста, поделитесь с нами "
+"своим опытом на этих платформах ниже"
 
 #: templates/base.html:213
 msgid "Copyright"
@@ -326,7 +332,7 @@ msgstr ""
 
 #: templates/base.html:217
 msgid "All rights reserved"
-msgstr ""
+msgstr "Все права защищены"
 
 #: templates/contact.html:35
 msgid "Thank you for your interest"
