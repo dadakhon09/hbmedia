@@ -125,7 +125,7 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="nl-form mb-80">
                     <form action="{% url 'sendmail' %}" method="POST">{% csrf_token %}
-                        <input type="email" name="nl-email" value="" placeholder="Your Email">
+                        <input type="email" name="nl-email" value="" placeholder="{% trans 'Your Email' %}">
                         <button type="submit">{% trans 'Subscribe' %}</button>
                     </form>
                 </div>
