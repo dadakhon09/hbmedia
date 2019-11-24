@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
+msgstr ""experience
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 16:41+0500\n"
@@ -568,6 +568,9 @@ msgid ""
 "Index 2019 these are the most coveted labels so far this year. The data from "
 "over five million shoppers browsing and buying online."
 msgstr ""
+
+msgid""
+msgstr:""
 
 #: templates/index.html:413
 msgid "July, 2018"
