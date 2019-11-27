@@ -1,6 +1,5 @@
 from django.urls import path
-from .views import index, about, blog, contact, portfolio, services, single_blog, send_mail, video_create, \
-	content_create, web_create
+from .views import index, about, blog, contact, portfolio, services, single_blog, send_mail, video_create, content_create, web_create
 
 urlpatterns = [
 	path('', index, name='index'),
