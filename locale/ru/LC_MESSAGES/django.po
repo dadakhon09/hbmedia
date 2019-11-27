@@ -4,10 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""experience
+msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-23 22:54+0500\n"
+"POT-Creation-Date: 2019-11-27 22:30+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,7 +35,7 @@ msgstr "АНАЛИЗ"
 msgid "STRATEGY"
 msgstr "СТРАТЕГИЯ"
 
-#: templates/about.html:42 templates/about.html:49 templates/about.html:57
+#: templates/about.html:42
 msgid ""
 "Our clients place their trust in us knowing that we live and breate their "
 "brand. We become part of their marketing team. We drive their business "
@@ -60,6 +60,26 @@ msgstr "ЦЕЛОСТНОСТЬ"
 #: templates/about.html:43 templates/about.html:50 templates/about.html:58
 msgid "Get In Touch"
 msgstr "Связаться"
+
+#: templates/about.html:49
+msgid ""
+"Deeply analyzing the value of the firm and collaborating it with the new "
+"technology may open various doors to the world. We recommend you the best "
+"possible ways of using analysis. ."
+msgstr ""
+"Глубокий анализ ценности фирмы и ее совместное использование с новыми "
+"технологиями могут открыть различные двери в мир. Мы рекомендуем вам самые "
+"лучшие способы использования анализа."
+
+#: templates/about.html:57
+msgid ""
+"We help to our clients to use latest technology in order to bring more value "
+"to the market place. Using the right technology in a right time assists to "
+"lift the brand and sales of the comany. "
+msgstr ""
+"Мы помогаем нашим клиентам использовать новейшие технологии, чтобы повысить "
+"ценность рынка. Использование правильной технологии в нужное время помогает "
+"поднять бренд и продажи компании."
 
 #: templates/about.html:82
 msgid "Why Choose Us"
@@ -147,7 +167,8 @@ msgstr "Клиент"
 msgid " High Networth"
 msgstr "Высокие Средства"
 
-#: templates/about.html:194 templates/services.html:176
+#: templates/about.html:194 templates/index.html:313
+#: templates/services.html:176
 msgid ""
 "is the new and only agency that cares about its customers. We take our "
 "customers` brands to the next level."
@@ -155,7 +176,7 @@ msgstr ""
 "это новое и единственное агентство, которое заботится о своих клиентах. Мы "
 "принимаем наших клиентов"
 
-#: templates/about.html:195
+#: templates/about.html:195 templates/index.html:314
 msgid "We prioritize our work by priozitizing customers brands\""
 msgstr ""
 "Мы уделяем приоритетное внимание нашей работе по приозитизации брендов "
@@ -242,11 +263,11 @@ msgstr "Контакт"
 
 #: templates/base.html:92 templates/base.html:100
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 #: templates/base.html:94 templates/base.html:98
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
 
 #: templates/base.html:120
 msgid "Subscribe to our Newsletter"
@@ -275,7 +296,7 @@ msgstr "9, зиолилар ул. М.Улугбекский район, горо
 
 #: templates/base.html:152
 msgid "Mon - Sat"
-msgstr ""
+msgstr "Пн - Cб"
 
 #: templates/base.html:153
 msgid "Closed on Weekends"
@@ -343,6 +364,26 @@ msgid "Please fill out the form below to inquire about our work in Digital"
 msgstr ""
 "Спасибо за проявленный интерес. Пожалуйста, заполните форму ниже, чтобы "
 "узнать о нашей работе в цифровом формате."
+
+#: templates/contact.html:41
+msgid "Name"
+msgstr ""
+
+#: templates/contact.html:46
+msgid "Email"
+msgstr "Ваш Эл. адрес"
+
+#: templates/contact.html:51
+msgid "Phone"
+msgstr ""
+
+#: templates/contact.html:56
+msgid "Organization"
+msgstr ""
+
+#: templates/contact.html:61
+msgid "Message"
+msgstr ""
 
 #: templates/content-create.html:6
 msgid "We create contents"
@@ -519,24 +560,6 @@ msgstr ""
 msgid " High Networth "
 msgstr "Высокие Средства"
 
-#: templates/index.html:313
-#, fuzzy
-#| msgid ""
-#| "is the new and only agency that cares about its customers. We take our "
-#| "customers` brands to the next level."
-msgid ""
-" is the new and only agency that cares about its customers. We take our "
-"customers` brands to the next level."
-msgstr ""
-"это новое и единственное агентство, которое заботится о своих клиентах. Мы "
-"принимаем наших клиентов"
-
-#: templates/index.html:314
-msgid " We prioritize our work by priozitizing customers brands"
-msgstr ""
-"Мы уделяем приоритетное внимание нашей работе по приозитизации брендов "
-"клиентов"
-
 #: templates/index.html:360 templates/services.html:97
 msgid "Give us a call!"
 msgstr "Позвоните нам!"
@@ -575,9 +598,6 @@ msgid ""
 "over five million shoppers browsing and buying online."
 msgstr ""
 
-msgid""
-msgstr:""
-
 #: templates/index.html:413
 msgid "July, 2018"
 msgstr ""
@@ -601,6 +621,13 @@ msgstr "Все Портфолио"
 msgid "Video Campaign"
 msgstr "Видео Кампания"
 
+#: templates/portfolio.html:45 templates/portfolio.html:60
+#: templates/portfolio.html:75 templates/portfolio.html:90
+#: templates/portfolio.html:105 templates/portfolio.html:120
+#: templates/portfolio.html:135 templates/portfolio.html:150
+msgid "COMING SOON"
+msgstr ""
+
 #: templates/portfolio.html:161
 msgid "Load More"
 msgstr "Загрузить Еще"
@@ -617,9 +644,7 @@ msgstr ""
 #, fuzzy
 #| msgid ""
 #| "Create a touching ad video campaign with HBMedia for reaching millions."
-msgid ""
-"Create a touching ad video campaign with <b> HBMedia </b> for reaching "
-"millions."
+msgid "Create a touching ad video campaign with HBMedia for reaching millions."
 msgstr ""
 "Создайте трогательную рекламную видео кампанию с HBMEDIA для достижения "
 "миллионов."
@@ -643,8 +668,8 @@ msgstr ""
 #| "brands as well"
 msgid ""
 "“Everybody is equally right to have a decision that changes the course of "
-"their action. In SMM I assume there is no agency or company exists like <b> "
-"HBMedia </b>. Its not only the help that they did us , but the care for our "
+"their action. In SMM I assume there is no agency or company exists like "
+"HBMedia. Its not only the help that they did us , but the care for our "
 "brands as well"
 msgstr ""
 "Каждый имеет равное право на решение, которое меняет ход его действий. В SMM "
@@ -711,6 +736,22 @@ msgstr ""
 "ваших услуг. Кроме того, мы можем помочь вам с \"SMM, SEO, GSC, SEM\"в то же "
 "время. Мы помогаем вам увеличить ваш трафик и продажи вашего бизнеса, "
 "создавая веб-сайты для вас."
+
+#, fuzzy
+#~| msgid ""
+#~| "is the new and only agency that cares about its customers. We take our "
+#~| "customers` brands to the next level."
+#~ msgid ""
+#~ " is the new and only agency that cares about its customers. We take our "
+#~ "customers` brands to the next level."
+#~ msgstr ""
+#~ "это новое и единственное агентство, которое заботится о своих клиентах. "
+#~ "Мы принимаем наших клиентов"
+
+#~ msgid " We prioritize our work by priozitizing customers brands"
+#~ msgstr ""
+#~ "Мы уделяем приоритетное внимание нашей работе по приозитизации брендов "
+#~ "клиентов"
 
 #~ msgid "Forum Registeration"
 #~ msgstr "Регистрация Форума"
