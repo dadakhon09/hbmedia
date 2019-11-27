@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-27 21:41+0500\n"
+"POT-Creation-Date: 2019-11-27 22:30+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,6 +67,9 @@ msgid ""
 "technology may open various doors to the world. We recommend you the best "
 "possible ways of using analysis. ."
 msgstr ""
+"Глубокий анализ ценности фирмы и ее совместное использование с новыми "
+"технологиями могут открыть различные двери в мир. Мы рекомендуем вам самые "
+"лучшие способы использования анализа."
 
 #: templates/about.html:57
 msgid ""
@@ -74,6 +77,9 @@ msgid ""
 "to the market place. Using the right technology in a right time assists to "
 "lift the brand and sales of the comany. "
 msgstr ""
+"Мы помогаем нашим клиентам использовать новейшие технологии, чтобы повысить "
+"ценность рынка. Использование правильной технологии в нужное время помогает "
+"поднять бренд и продажи компании."
 
 #: templates/about.html:82
 msgid "Why Choose Us"
@@ -257,11 +263,11 @@ msgstr "Контакт"
 
 #: templates/base.html:92 templates/base.html:100
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 #: templates/base.html:94 templates/base.html:98
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
 
 #: templates/base.html:120
 msgid "Subscribe to our Newsletter"
@@ -290,7 +296,7 @@ msgstr "9, зиолилар ул. М.Улугбекский район, горо
 
 #: templates/base.html:152
 msgid "Mon - Sat"
-msgstr ""
+msgstr "Пн - Cб"
 
 #: templates/base.html:153
 msgid "Closed on Weekends"
@@ -364,8 +370,6 @@ msgid "Name"
 msgstr ""
 
 #: templates/contact.html:46
-#, fuzzy
-#| msgid "Your Email"
 msgid "Email"
 msgstr "Ваш Эл. адрес"
 
@@ -640,9 +644,7 @@ msgstr ""
 #, fuzzy
 #| msgid ""
 #| "Create a touching ad video campaign with HBMedia for reaching millions."
-msgid ""
-"Create a touching ad video campaign with <b> HBMedia </b> for reaching "
-"millions."
+msgid "Create a touching ad video campaign with HBMedia for reaching millions."
 msgstr ""
 "Создайте трогательную рекламную видео кампанию с HBMEDIA для достижения "
 "миллионов."
