@@ -4,5 +4,6 @@ migrations/
 db.sqlite3
 .idea/
 __pycache__/
+statics/
 media
 *.pyc
