@@ -641,9 +641,6 @@ msgstr ""
 "аудитории в социальных сетях."
 
 #: templates/services.html:71
-#, fuzzy
-#| msgid ""
-#| "Create a touching ad video campaign with HBMedia for reaching millions."
 msgid "Create a touching ad video campaign with HBMedia for reaching millions"
 msgstr ""
 "Создайте трогательную рекламную видео кампанию с HBMEDIA для достижения "
