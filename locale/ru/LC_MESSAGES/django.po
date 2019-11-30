@@ -367,7 +367,7 @@ msgstr ""
 
 #: templates/contact.html:41
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: templates/contact.html:46
 msgid "Email"
@@ -375,15 +375,15 @@ msgstr "Ваш Эл. адрес"
 
 #: templates/contact.html:51
 msgid "Phone"
-msgstr ""
+msgstr "Телефон"
 
 #: templates/contact.html:56
 msgid "Organization"
-msgstr ""
+msgstr "Организация"
 
 #: templates/contact.html:61
 msgid "Message"
-msgstr ""
+msgstr "Сообщение"
 
 #: templates/content-create.html:6
 msgid "We create contents"
