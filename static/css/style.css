@@ -3045,3 +3045,13 @@ input:focus {
 .icon_globe:before {
     content: "\e0e2";
 }
+
+.breakpoint-off .classynav ul li .dropdown {
+    width: max-content;
+}
+
+@media only screen and (max-width: 768px) {
+    .breakpoint-off .classynav ul li .dropdown {
+        width: auto;
+    }
+}

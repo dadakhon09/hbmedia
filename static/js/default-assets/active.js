@@ -204,7 +204,7 @@
     // ****************************
     if ($.fn.scrollUp) {
         uza_window.scrollUp({
-            scrollSpeed: 2000,
+            scrollSpeed: 700,
             scrollText: '<i class="fa fa-angle-up"</i>'
         });
     }

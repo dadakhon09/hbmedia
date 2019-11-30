@@ -81,37 +81,56 @@
                             <li class="navItem"><a class="a" href="{% url 'portfolio' %}">{% trans 'Portfolio' %}</a>
                             </li>
                             <li class="navItem"><a class="a" href="{% url 'services' %}">{% trans 'Service' %}</a>
-                                <ul class="dropdown">
-                                    <li><a href="{% url 'web-create' %}">- {% trans 'Website Creation' %}</a></li>
+                                <ul class="dropdown" >
+                                    <li style="width: auto"><a href="{% url 'web-create' %}">- {% trans 'Website Creation' %}</a></li>
                                     <li><a href="{% url 'content-create' %}">- {% trans 'Content Creation' %}</a></li>
                                     <li><a href="{% url 'video-create' %}">- {% trans 'Video Production' %}</a></li>
                                 </ul>
                             </li>
                             <li class="navItem"><a class="a" href="{% url 'contact' %}">{% trans 'Contact' %}</a></li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item">
                                 {% get_current_language as LANGUAGE_CODE %}
                                 {% if LANGUAGE_CODE == 'en' %}
-                                    <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown"
+                                <a class="nav-link dropdown-toggle a" href="" id="dropdown09" data-toggle="dropdown"
                                        aria-haspopup="true" aria-expanded="false"><span
-                                            class="flag-icon flag-icon-us"> </span> {% trans 'English' %}</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown09">
-                                        <a class="dropdown-item" href="/ru{{ request.get_full_path|slice:'3:' }}"><span
-                                                class="flag-icon flag-icon-ru"> </span> {% trans 'Russian' %}</a>
-                                    </div>
+                                           class="flag-icon flag-icon-us"> </span> {% trans 'English' %}</a>
+                                <ul class="dropdown">
+                                    <li style="width: auto"><a class="dropdown-item" href="/ru{{ request.get_full_path|slice:'3:' }}"><span
+                                                class="flag-icon flag-icon-ru"> </span> {% trans 'Russian' %}</a></li>
+                                </ul>
                                 {% elif LANGUAGE_CODE == 'ru' %}
-
-                                    <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown"
+                                <a class="nav-link dropdown-toggle a" href="" id="dropdown09" data-toggle="dropdown"
                                        aria-haspopup="true" aria-expanded="false"><span
-                                            class="flag-icon flag-icon-ru"> </span> {% trans 'Russian' %}</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown09">
-                                        <a class="dropdown-item" href="/en{{ request.get_full_path|slice:'3:' }}"><span
-                                                class="flag-icon flag-icon-us"> </span> {% trans 'English' %}</a>
-                                    </div>
+                                           class="flag-icon flag-icon-ru"> </span> {% trans 'Russian' %}</a>
+                                <ul class="dropdown">
+                                    <li style="width: auto"><a class="dropdown-item" href="/en{{ request.get_full_path|slice:'3:' }}"><span
+                                                class="flag-icon flag-icon-us"> </span> {% trans 'English' %}</a></li>
+                                </ul>
                                 {% endif %}
+{#                                {% get_current_language as LANGUAGE_CODE %}#}
+{#                                {% if LANGUAGE_CODE == 'en' %}#}
+{#                                    <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown"#}
+{#                                       aria-haspopup="true" aria-expanded="false"><span#}
+{#                                            class="flag-icon flag-icon-us"> </span> {% trans 'English' %}</a>#}
+{#                                    <div class="dropdown-menu" aria-labelledby="dropdown09">#}
+{#                                        <a class="dropdown-item" href="/ru{{ request.get_full_path|slice:'3:' }}"><span#}
+{#                                                class="flag-icon flag-icon-ru"> </span> {% trans 'Russian' %}</a>#}
+{#                                    </div>#}
+{#                                {% elif LANGUAGE_CODE == 'ru' %}#}
+{##}
+{#                                    <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown"#}
+{#                                       aria-haspopup="true" aria-expanded="false"><span#}
+{#                                            class="flag-icon flag-icon-ru"> </span> {% trans 'Russian' %}</a>#}
+{#                                    <div class="dropdown-menu" aria-labelledby="dropdown09">#}
+{#                                        <a class="dropdown-item" href="/en{{ request.get_full_path|slice:'3:' }}"><span#}
+{#                                                class="flag-icon flag-icon-us"> </span> {% trans 'English' %}</a>#}
+{#                                    </div>#}
+{#                                {% endif %}#}
                             </li>
                         </ul>
                         <!-- Nav End -->
                     </div>
+                </div>
             </nav>
         </div>
     </div>
