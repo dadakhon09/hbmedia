@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'hbmedia.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'hbmedia',
         'USER': 'dadakhon',
         'PASSWORD': '1',
@@ -145,7 +145,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'statics')
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -153,4 +153,4 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'odadaxon99@gmail.com'
-EMAIL_HOST_PASSWORD = 'Uu998470273!'
+EMAIL_HOST_PASSWORD = 'Uu998470273!!'
