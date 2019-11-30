@@ -107,25 +107,6 @@
                                                 class="flag-icon flag-icon-us"> </span> {% trans 'English' %}</a></li>
                                 </ul>
                                 {% endif %}
-{#                                {% get_current_language as LANGUAGE_CODE %}#}
-{#                                {% if LANGUAGE_CODE == 'en' %}#}
-{#                                    <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown"#}
-{#                                       aria-haspopup="true" aria-expanded="false"><span#}
-{#                                            class="flag-icon flag-icon-us"> </span> {% trans 'English' %}</a>#}
-{#                                    <div class="dropdown-menu" aria-labelledby="dropdown09">#}
-{#                                        <a class="dropdown-item" href="/ru{{ request.get_full_path|slice:'3:' }}"><span#}
-{#                                                class="flag-icon flag-icon-ru"> </span> {% trans 'Russian' %}</a>#}
-{#                                    </div>#}
-{#                                {% elif LANGUAGE_CODE == 'ru' %}#}
-{##}
-{#                                    <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown"#}
-{#                                       aria-haspopup="true" aria-expanded="false"><span#}
-{#                                            class="flag-icon flag-icon-ru"> </span> {% trans 'Russian' %}</a>#}
-{#                                    <div class="dropdown-menu" aria-labelledby="dropdown09">#}
-{#                                        <a class="dropdown-item" href="/en{{ request.get_full_path|slice:'3:' }}"><span#}
-{#                                                class="flag-icon flag-icon-us"> </span> {% trans 'English' %}</a>#}
-{#                                    </div>#}
-{#                                {% endif %}#}
                             </li>
                         </ul>
                         <!-- Nav End -->
@@ -174,7 +155,7 @@
                     <!-- Footer Content -->
                     <div class="footer-content mb-15">
                         <h5>(+998) 99 876 1902</h5>
-                        <p>{% trans '9, Ziyolilar str., M.Ulugbek district, Tashkent city ' %}<br> hbmedia@gmail.com</p>
+                        <p>{% trans 'Chorsu Shayhontohur dis. Tashkent city ' %}<br> <a href="mailto:hbmedia@gmail.com">hbmedia@gmail.com</a></p>
                     </div>
                     <p class="mb-0">{% trans 'Mon - Sat' %}: 9:00 - 19:00 <br>
                         {% trans 'Closed on Weekends' %}</p>
