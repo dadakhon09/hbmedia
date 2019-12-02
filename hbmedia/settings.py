@@ -25,7 +25,7 @@ SECRET_KEY = '93dxq1nf$mutr6od#rg_he@!x9%o9v7z-=5zmcivib(%q(&y#j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['5.45.117.138', 'www.hbmedia.uz', 'hbmedia.uz', '127.0.0.1']
+ALLOWED_HOSTS = ['5.45.117.138', 'www.hbmedia.uz', 'hbmedia.uz', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -90,7 +90,7 @@ DATABASES = {
         'NAME': 'hbmedia',
         'USER': 'dadakhon',
         'PASSWORD': '1',
-        'HOST': 'localhost',
+        'HOST': '',
         'PORT': '',
     }
 }
