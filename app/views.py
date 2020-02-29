@@ -22,7 +22,7 @@ def contact(request):
         phone = request.POST.get('phone')
         message = request.POST.get('message')
 
-        m = EmailMessage('contact request', f'From: {full_name}\n Email: {email}\n Organization: {organization}\n Phone: {phone}\n Message:\n{message}', 'odadaxon99@gmail.com', ['khasanboevbobur@gmail.com', ])
+        m = EmailMessage('contact request', f'From: {full_name}\n Email: {email}\n Organization: {organization}\n Phone: {phone}\n Message:\n{message}', 'hbmediauz@gmail.com', ['hbmediauz@gmail.com', ])
         m.send()
     return render(request, 'contact.html', {})
 
@@ -53,7 +53,7 @@ def single_blog(request):
 
 def send_mail(request):
     mail = request.POST.get('nl-email')
-    s = EmailMessage('new subscriber', f'{mail} has just subscribed', 'odadaxon99@gmail.com',
-                     ['khasanboevbobur@gmail.com', ])
+    s = EmailMessage('new subscriber', f'{mail} has just subscribed', 'hbmediauz@gmail.com',
+                     ['hbmediauz@gmail.com', ])
     s.send()
     return redirect('index')
